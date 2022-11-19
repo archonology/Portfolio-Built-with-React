@@ -4,10 +4,10 @@
   --lghtclover: rgb(137, 192, 138);
   --lghtlake: rgb(142, 180, 194);
   --storm: rgb(125, 130, 122);
+  --studio: rgb(254, 254, 253);
 }
 
 body {
-  margin: 4em;
   padding: 3em;
 }
 
@@ -35,10 +35,11 @@ p {
 
 .project-card {
   max-width: 400px;
+  min-width: 300px;
   padding: 1em;
   border-radius: 8px;
   background-color: var(--storm);
-  color: white;
+  color: var(--studio);
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 }
 
@@ -56,7 +57,7 @@ img {
 .link {
   font-family: 'Alexandria', sans-serif;
   background-color: var(--clover);
-  color: rgb(254, 254, 254);
+  color: var(--studio);
   margin-top: 5px;
   margin-right: 7px;
   padding: 10px;
@@ -67,7 +68,7 @@ img {
 .link2 {
   font-family: 'Alexandria', sans-serif;
   background-color: var(--lake);
-  color: rgb(254, 254, 254);
+  color: var(--studio);
   margin-top: 5px;
   margin-right: 7px;
   padding: 10px;
@@ -87,16 +88,18 @@ img:hover {
 .link:hover {
   text-decoration: none;
   font-style: none;
-  color: white;
+  color: var(--studio);
   background-color: var(--lghtclover);
 }
 
 .link2:hover {
   text-decoration: none;
   font-style: none;
-  color: white;
+  color: var(--studio);
   background-color: var(--lghtlake);
 }
+
+
 
 /* css for default react page */
 .App {

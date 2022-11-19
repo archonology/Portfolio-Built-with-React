@@ -16,7 +16,7 @@ export default function Portfolio() {
       <section className='container d-flex flex-wrap'>
         <div className='row'>
           {/* card 1 */}
-          <div className="project-card col col-md-6 m-3 p-4" >
+          <div className="project-card col m-3 p-4" >
             <img
               alt={homeParty}
               className="card-img-top"
@@ -48,7 +48,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="project-card col col-md-6 m-3 p-4" >
+          <div className="project-card col m-3 p-4" >
             <img
               alt={portgif}
               className="card-img-top"

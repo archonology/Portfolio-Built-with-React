@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import NavTabs from './Navtabs';
+import Footer from './Footer';
 import Home from '../../src/components/pages/Home';
 import About from '../../src/components/pages/About';
 import Portfolio from '../../src/components/pages/Portfolio';
@@ -21,8 +22,8 @@ export default function PortfolioContainer() {
       return <Portfolio />;
     }
     if (currentPage === 'Resume') {
-        return <Resume />;
-      }
+      return <Resume />;
+    }
     return <Contact />;
   };
 
@@ -34,6 +35,10 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* This is calling the renderPage method which will return a component  */}
       {renderPage()}
+      <div>
+        <Footer />
+      </div>
     </div>
+
   );
 }
