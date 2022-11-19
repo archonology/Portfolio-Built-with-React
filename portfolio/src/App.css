@@ -1,3 +1,108 @@
+:root {
+  --clover:  rgb(96, 152, 98);
+  --lake: rgb(96, 137, 152);
+  --lghtclover: rgb(137, 192, 138);
+  --lghtlake: rgb(142, 180, 194);
+  --storm: rgb(95, 100, 92);
+}
+
+body {
+  margin: 4em;
+  padding: 3em;
+}
+
+h1 {
+  font-family: 'Alexandria', sans-serif;
+}
+
+.nav-item {
+  font-family: 'Alexandria', sans-serif;
+}
+
+/* .nav-link:hover {
+  text-decoration: none;
+  border: none;
+}
+
+.active {
+  text-decoration: none;
+  border: none;
+} */
+
+h2 {
+  font-family: 'Cutive Mono', monospace;
+}
+
+p {
+  font-family: 'Cutive Mono', monospace;
+}
+
+.project-card {
+  max-width: 400px;
+  padding: 1em;
+  border-radius: 8px;
+  background-color: var(--storm);
+  color: white;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+}
+
+img {
+  border-radius: 8px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+}
+.card-title {
+  font-family: 'Alexandria', sans-serif;
+  padding-top: 5px;
+}
+
+.link {
+  font-family: 'Alexandria', sans-serif;
+  background-color: var(--clover);
+  color: rgb(254, 254, 254);
+  margin-top: 5px;
+  margin-right: 7px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.link2 {
+  font-family: 'Alexandria', sans-serif;
+  background-color: var(--lake);
+  color: rgb(254, 254, 254);
+  margin-top: 5px;
+  margin-right: 7px;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+a:hover {
+  text-decoration: none;
+  border: none;
+}
+
+img:hover {
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
+}
+
+.link:hover {
+  text-decoration: none;
+  font-style: none;
+  color: white;
+  background-color: var(--lghtclover);
+}
+
+.link2:hover {
+  text-decoration: none;
+  font-style: none;
+  color: white;
+  background-color: var(--lghtlake);
+}
+
+/* css for default react page */
 .App {
   text-align: center;
 }
