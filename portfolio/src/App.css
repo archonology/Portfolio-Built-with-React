@@ -3,7 +3,7 @@
   --lake: rgb(96, 137, 152);
   --lghtclover: rgb(137, 192, 138);
   --lghtlake: rgb(142, 180, 194);
-  --storm: rgb(95, 100, 92);
+  --storm: rgb(125, 130, 122);
 }
 
 body {
@@ -17,14 +17,10 @@ h1 {
 
 .nav-item {
   font-family: 'Alexandria', sans-serif;
+  padding: 10px;
 }
 
-/* .nav-link:hover {
-  text-decoration: none;
-  border: none;
-}
-
-.active {
+/* .nav-item .nav-link:hover {
   text-decoration: none;
   border: none;
 } */

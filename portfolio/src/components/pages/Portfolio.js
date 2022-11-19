@@ -1,6 +1,7 @@
 import React from 'react';
 import homeParty from '../homeparty_fresh.png';
 import wandering from '../Wandering Comma.png';
+import portgif from '../React App.gif';
 
 export default function Portfolio() {
   return (
@@ -11,9 +12,10 @@ export default function Portfolio() {
         sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
         libero.
       </p>
-      {/* card 1 */}
+      
       <section className='container d-flex flex-wrap'>
         <div className='row'>
+          {/* card 1 */}
           <div className="project-card col col-md-6 m-3 p-4" >
             <img
               alt={homeParty}
@@ -46,6 +48,22 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+          <div className="project-card col col-md-6 m-3 p-4" >
+            <img
+              alt={portgif}
+              className="card-img-top"
+              src={portgif}
+            />
+            <div className="card-body">
+              <h5 className="card-title">React Portfolio</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://github.com/archonology" className="link2">visit the live site</a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </div >
