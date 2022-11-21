@@ -2,7 +2,7 @@ import React from 'react';
 import homeParty from '../images/home-party-page.png';
 import wandering from '../images/wandering-comma.png';
 import nightIn from '../images/a-night-in-page.png';
-import codeQuiz from '../images/coding-quiz.png';
+// import codeQuiz from '../images/coding-quiz.png';
 import pwa from '../images/pwa-text-editor.png';
 import weather from '../images/weather-dashboard.png';
 import scheduler from '../images/scheduler.png';
@@ -140,7 +140,7 @@ export default function Portfolio() {
           </div> */}
           {/* end of cards */}
         </div>
-        <div className='demos row col'>
+        <div className='demos col'>
           <h2>Back End Demos</h2>
           <p>
             back end demos.
