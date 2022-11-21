@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../PortraitGif.gif';
+import portrait from '../images/PortraitGif.gif';
 
 export default function Home() {
   return (
