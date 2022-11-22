@@ -1,13 +1,15 @@
 import React from 'react';
-import homeParty from '../images/home-party-page.png';
-import wandering from '../images/wandering-comma.png';
-import nightIn from '../images/a-night-in-page.png';
-// import codeQuiz from '../images/coding-quiz.png';
-import pwa from '../images/pwa-text-editor.png';
-import weather from '../images/weather-dashboard.png';
-import scheduler from '../images/scheduler.png';
+import homeParty from '../images/home-party-page.jpg';
+import wandering from '../images/wandering-comma.jpg';
+import nightIn from '../images/a-night-in-page.jpg';
+import codeQuiz from '../images/coding-quiz.jpg';
+import pwa from '../images/pwa-text-editor.jpg';
+import weather from '../images/weather-dashboard.jpg';
+import scheduler from '../images/scheduler.jpg';
 
-export default function Portfolio() {
+
+
+export default function Portfolio(props) {
   return (
     <div>
       <h2>Portfolio</h2>
@@ -17,10 +19,13 @@ export default function Portfolio() {
         libero.
       </p>
       <hr></hr>
+
       <section className='container d-flex flex-wrap'>
         <div className='row'>
+
           {/* card 1 */}
-          <div className="project-card col m-3 p-4" >
+
+          <div className="project-card col m-3 p-4">
             <img
               alt={homeParty}
               className="card-img-top"
@@ -35,6 +40,8 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
+
+
 
           {/* card 2 */}
           <div className="project-card col m-3 p-4" >
@@ -138,38 +145,88 @@ export default function Portfolio() {
               </div>
             </div>
           </div> */}
+
           {/* end of cards */}
-        </div>
-        <div className='demos col'>
-          <h2>Back End Demos</h2>
+
+
+
+          <h2 className='mt-5'>Back End Demos</h2>
           <p>
             back end demos.
           </p>
           <hr></hr>
-          <div className="mt-3 projects-body video-card">
-            <div className="embed-responsive embed-responsive-16by9">
-              <iframe width="1252" height="704" src="https://www.youtube.com/embed/5A9lBIHdNGY" title="Bubble World Demo"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen></iframe>
+          {/* video card 1 */}
+          <div className="video-card col m-3 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">BubbleWorld</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://www.youtube.com/embed/L7r7JGepZZ4" className="link2">watch the demo</a>
+              </div>
             </div>
-
-            <div className="mt-3 embed-responsive embed-responsive-16by9">
-              <iframe width="860" height="484" src="https://www.youtube.com/embed/L7r7JGepZZ4" title="eCommerce Back End Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-
-            <div className="mt-3 embed-responsive embed-responsive-16by9">
-              <iframe width="860" height="484" src="https://www.youtube.com/embed/ZaHrOHW6bLg" title="Demo for Team Generator Project" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-
-            <div className="mt-3 embed-responsive embed-responsive-16by9">
-              <iframe width="860" height="484" src="https://www.youtube.com/embed/r-aP_ufH47U" title="Employee Library Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-            </div>
-
           </div>
 
-        </div>
+          {/* video card 2 */}
+          <div className="video-card col m-3 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">eCommerce</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://www.youtube.com/embed/L7r7JGepZZ4" className="link2">watch the demo</a>
+              </div>
+            </div>
+          </div>
 
+          {/* video card 3 */}
+          <div className="video-card col m-3 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">Employee Library</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://www.youtube.com/embed/L7r7JGepZZ4" className="link2">watch the demo</a>
+              </div>
+            </div>
+          </div>
+
+          {/* video card 4 */}
+          <div className="video-card col m-3 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">Team Generator</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://www.youtube.com/embed/L7r7JGepZZ4" className="link2">watch the demo</a>
+              </div>
+            </div>
+          </div>
+
+          {/* <div className=" projects-body video-card">
+              
+              <div className="mt-3 embed-responsive embed-responsive-16by9">
+                <iframe width="1252" height="704" src="https://www.youtube.com/embed/5A9lBIHdNGY" title="Bubble World Demo"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen></iframe>
+              </div>
+
+              <div className="mt-3 embed-responsive embed-responsive-16by9">
+                <iframe width="860" height="484" src="https://www.youtube.com/embed/L7r7JGepZZ4" title="eCommerce Back End Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+
+              <div className="mt-3 embed-responsive embed-responsive-16by9">
+                <iframe width="860" height="484" src="https://www.youtube.com/embed/ZaHrOHW6bLg" title="Demo for Team Generator Project" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+
+              <div className="mt-3 embed-responsive embed-responsive-16by9">
+                <iframe width="860" height="484" src="https://www.youtube.com/embed/r-aP_ufH47U" title="Employee Library Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+              </div>
+
+            </div> */}
+
+        </div>
 
       </section>
     </div >

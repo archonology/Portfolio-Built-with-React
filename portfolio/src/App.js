@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioContainer from "./components/PortfolioContainer";
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
@@ -11,3 +12,4 @@ function App() {
 }
 
 export default App;
+
