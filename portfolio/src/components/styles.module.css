@@ -3,11 +3,11 @@
   } 
 
   .c {
-    position: absolute;
+    position: static;
     max-width: 500px;
     max-height: 500px;
-    width: 350px;
-    height: 200px;
+    width: 100px;
+    height: 300px;
     cursor: pointer;
     will-change: transform, opacity;
   }
@@ -18,7 +18,7 @@
   }
   
   .back1 {
-    background-image: url(./images/)
+    background-image: url(./images/IMB_QCls8U.gif)
   }
   
   .front1 {

@@ -1,5 +1,7 @@
-import React from 'react';
-import { useSpring, animated } from 'react-spring'
+import React, { useState } from 'react'
+import { useSpring, a } from 'react-spring'
+
+import styles from '../../components/styles.module.css'
 
 import homeParty from '../images/home-party-page.jpg';
 import wandering from '../images/wandering-comma.jpg';
@@ -13,9 +15,18 @@ import scheduler from '../images/scheduler.jpg';
 
 
 export default function Portfolio(props) {
+
+  const [flipped, set] = useState(false)
+  const { transform, opacity } = useSpring({
+    opacity: flipped ? 1 : 0,
+    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
+    config: { mass: 5, tension: 500, friction: 80 },
+  })
+
   return (
     <div>
       <h2>Portfolio</h2>
+
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
         sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
@@ -28,20 +39,29 @@ export default function Portfolio(props) {
 
           {/* card 1 */}
 
-          <div className="project-card col m-3 p-4">
-            <img
-              alt={homeParty}
-              className="card-img-top"
-              src={homeParty}
-            />
+          <div className="project-card col m-3 p-4"{...styles.container} onClick={() => set(state => !state)} >
             <div className="card-body">
-              <h5 className="card-title">Home Party</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div className='d-flex justify-content-end'>
-                <a href="https://github.com/archonology" className="link">visit the repo</a>
-                <a href="https://github.com/archonology" className="link2">visit the live site</a>
-              </div>
-            </div>
+
+                <a.img
+                  className={`${styles.c} ${styles.front1} card-img-top`}
+                  style={{ opacity: opacity.to(o => 1 - o), transform }}
+                />
+                <a.img
+                  className={`${styles.c} ${styles.back1} card-img-top`}
+                  style={{
+                    opacity,
+                    transform,
+                    rotateX: '180deg',
+                  }}
+                />
+
+                <h5 className="card-title">Home Party</h5>
+                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div className='d-flex justify-content-end'>
+                  <a href="https://github.com/archonology" className="link">visit the repo</a>
+                  <a href="https://github.com/archonology" className="link2">visit the live site</a>
+                </div>
+          </div>
           </div>
 
 
