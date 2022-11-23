@@ -1,12 +1,13 @@
 import React from 'react';
+import resume from '../materials/rm-resume.pdf';
 
 export default function Resume() {
   return (
     <section >
 
-      <div className='row d-flex justify-content-center'>
+      <div>
 
-        <div className='col order-1 '>
+        <div className='resume'>
           <h2>Resume</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
@@ -20,15 +21,10 @@ export default function Resume() {
             vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
             fames ac ante ipsum primis in faucibus.
           </p>
-        </div>
 
-        {/* <div className='col order-2'>
-          <img
-            alt={portrait2}
-            className="portrait2"
-            src={portrait2}
-          />
-        </div> */}
+          <a href={resume} className='link3' download>Download Resume</a>
+          
+        </div>
 
       </div>
 

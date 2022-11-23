@@ -102,6 +102,17 @@ img {
   border-radius: 8px;
 }
 
+.link3 {
+  font-family: 'Alexandria', sans-serif;
+  background-color: var(--clover);
+  color: var(--studio);
+  margin-top: 1em;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 8px;
+  width: 200px;
+}
+
 .demos {
   padding-top: 3em;
 }
@@ -166,6 +177,13 @@ img:hover {
   font-style: none;
   color: var(--studio);
   background-color: var(--lghtlake);
+}
+
+.link3:hover {
+  text-decoration: none;
+  font-style: none;
+  color: var(--studio);
+  background-color: var(--lghtclover);
 }
 
 .contact-btn:hover {
