@@ -1,0 +1,33 @@
+.svg {
+    width: 350px;
+  } 
+
+  .c {
+    position: absolute;
+    max-width: 500px;
+    max-height: 500px;
+    width: 350px;
+    height: 200px;
+    cursor: pointer;
+    will-change: transform, opacity;
+  }
+  
+  .front1,
+  .back1 {
+    background-size: cover;
+  }
+  
+  .back1 {
+    background-image: url(./images/)
+  }
+  
+  .front1 {
+    background-image: url(./images/home-party-page.jpg);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }

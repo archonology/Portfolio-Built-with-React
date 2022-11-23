@@ -7,6 +7,9 @@ import Portfolio from '../../src/components/pages/Portfolio';
 import Contact from '../../src/components/pages/Contact';
 import Resume from '../../src/components/pages/Resume';
 
+import styles from './styles.module.css'
+
+
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
 

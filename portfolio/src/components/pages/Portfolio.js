@@ -1,4 +1,6 @@
 import React from 'react';
+import { useSpring, animated } from 'react-spring'
+
 import homeParty from '../images/home-party-page.jpg';
 import wandering from '../images/wandering-comma.jpg';
 import nightIn from '../images/a-night-in-page.jpg';
@@ -6,6 +8,7 @@ import codeQuiz from '../images/coding-quiz.jpg';
 import pwa from '../images/pwa-text-editor.jpg';
 import weather from '../images/weather-dashboard.jpg';
 import scheduler from '../images/scheduler.jpg';
+
 
 
 
