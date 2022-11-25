@@ -4,9 +4,8 @@ import resume from '../materials/rm-resume.pdf';
 export default function Resume() {
   return (
     <section >
-
       <div>
-        <h2>Resume</h2>
+
         <div className='resume'>
 
 
@@ -32,12 +31,12 @@ export default function Resume() {
           <p>  • 3 years educating, planning, and collaboration as an ESL educator in South Korea.
           </p>
 
-          <a href={resume} className='link3' download>Download Resume</a>
-
         </div>
 
       </div>
-
+      <div className='d-flex justify-content-center'>
+      <a href={resume} className='link3' download>Download Resume</a>
+      </div>
     </section>
   );
 }

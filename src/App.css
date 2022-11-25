@@ -133,8 +133,8 @@ img {
 .portrait {
   box-shadow: none;
   max-width: 450px;
+  margin: 3em;
   border: none;
-  margin-left: 2em;
   padding: 3em;
   box-shadow: 5px 1px 17px rgb(223, 216, 216);
 }
@@ -185,11 +185,12 @@ img {
   font-family: 'Alexandria', sans-serif;
   background-color: var(--slate);
   color: var(--studio);
-  margin-top: 1em;
+  margin-top: 2em;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
   width: 200px;
+  text-align: center;
 }
 
 .demos {

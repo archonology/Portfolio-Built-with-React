@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <main >
 
-<div className='row d-flex justify-content-center'>
-      <div className='col order-2 '>
+<div className='row d-flex'>
+      <div className='col order-2'>
         <img
           alt={portrait}
           className="portrait"
