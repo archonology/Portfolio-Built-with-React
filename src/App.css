@@ -263,26 +263,32 @@ img:hover {
 
 .flip:hover {
   background-image: url(./components/images/homeParty.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .flip2:hover {
   background-image: url(./components/images/wandering.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .flip3:hover {
   background-image: url(./components/images/nightIn.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .flip4:hover {
   background-image: url(./components/images/textEditor.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .flip5:hover {
   background-image: url(./components/images/weather.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .flip6:hover{
   background-image: url(./components/images/scheduler.gif);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
   }
 
 /* css for default react page */
