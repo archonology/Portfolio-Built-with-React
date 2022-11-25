@@ -133,9 +133,10 @@ img {
 .portrait {
   box-shadow: none;
   max-width: 450px;
-  margin: 3em;
+  margin: 2em;
+  margin-top: 0;
   border: none;
-  padding: 3em;
+  padding: 2em;
   box-shadow: 5px 1px 17px rgb(223, 216, 216);
 }
 

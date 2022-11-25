@@ -11,7 +11,7 @@ export default function Home() {
     <main >
 
 <div className='row d-flex'>
-      <div className='col order-2'>
+      <div className='col col-md-6 col-lg-6  order-2'>
         <img
           alt={portrait}
           className="portrait"
@@ -19,7 +19,7 @@ export default function Home() {
         />
       </div>
 
-        <div className='col order-1 '>
+        <div className='col col-md-3 col-lg-6 order-1 '>
           <h2>Home</h2>
 
 
