@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <main >
 
-      <div className='row d-flex justify-content-center'>
-        <div className='col order-2 '>
-          <img
-            alt={portrait}
-            className="portrait"
-            src={portrait}
-          />
-        </div>
+<div className='row d-flex justify-content-center'>
+      <div className='col order-2 '>
+        <img
+          alt={portrait}
+          className="portrait"
+          src={portrait}
+        />
+      </div>
 
         <div className='col order-1 '>
           <h2>Home</h2>
@@ -37,6 +37,7 @@ export default function Home() {
           </p>
         </div>
 
+  
       </div>
 
     </main>
