@@ -1,16 +1,7 @@
 import React, { useState } from 'react'
 import { useSpring, a } from 'react-spring'
 
-import styles from '../../components/styles.module.css'
 
-// import homeParty from '../images/home-party-page.jpg';
-// import homePartyGif from '../images/homeParty.gif';
-// import wandering from '../images/wandering-comma.jpg';
-// import nightIn from '../images/a-night-in-page.jpg';
-// import codeQuiz from '../images/coding-quiz.jpg';
-// import pwa from '../images/pwa-text-editor.jpg';
-// import weather from '../images/weather-dashboard.jpg';
-// import scheduler from '../images/scheduler.jpg';
 
 
 
