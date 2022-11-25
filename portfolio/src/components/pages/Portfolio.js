@@ -3,25 +3,21 @@ import { useSpring, a } from 'react-spring'
 
 import styles from '../../components/styles.module.css'
 
-import homeParty from '../images/home-party-page.jpg';
-import wandering from '../images/wandering-comma.jpg';
-import nightIn from '../images/a-night-in-page.jpg';
-import codeQuiz from '../images/coding-quiz.jpg';
-import pwa from '../images/pwa-text-editor.jpg';
-import weather from '../images/weather-dashboard.jpg';
-import scheduler from '../images/scheduler.jpg';
+// import homeParty from '../images/home-party-page.jpg';
+// import homePartyGif from '../images/homeParty.gif';
+// import wandering from '../images/wandering-comma.jpg';
+// import nightIn from '../images/a-night-in-page.jpg';
+// import codeQuiz from '../images/coding-quiz.jpg';
+// import pwa from '../images/pwa-text-editor.jpg';
+// import weather from '../images/weather-dashboard.jpg';
+// import scheduler from '../images/scheduler.jpg';
 
 
 
 
-export default function Portfolio(props) {
+export default function Portfolio() {
 
-  const [flipped, set] = useState(false)
-  const { transform, opacity } = useSpring({
-    opacity: flipped ? 1 : 0,
-    transform: `perspective(600px) rotateX(${flipped ? 180 : 0}deg)`,
-    config: { mass: 5, tension: 500, friction: 80 },
-  })
+  // const handleSrcChange = (img) => img.src={homePartyGif};
 
   return (
     <div>
@@ -38,41 +34,23 @@ export default function Portfolio(props) {
         <div className='row'>
 
           {/* card 1 */}
-
-          <div className="project-card col m-3 p-4"{...styles.container} onClick={() => set(state => !state)} >
+          <div className="project-card col m-3 p-4" >
+            <div className="card-img-top flip">
+            </div>
             <div className="card-body">
-
-                <a.img
-                  className={`${styles.c} ${styles.front1} card-img-top`}
-                  style={{ opacity: opacity.to(o => 1 - o), transform }}
-                />
-                <a.img
-                  className={`${styles.c} ${styles.back1} card-img-top`}
-                  style={{
-                    opacity,
-                    transform,
-                    rotateX: '180deg',
-                  }}
-                />
-
-                <h5 className="card-title">Home Party</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <div className='d-flex justify-content-end'>
-                  <a href="https://github.com/archonology" className="link">visit the repo</a>
-                  <a href="https://github.com/archonology" className="link2">visit the live site</a>
-                </div>
+              <h5 className="card-title">The Wandering Comma</h5>
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology" className="link">visit the repo</a>
+                <a href="https://github.com/archonology" className="link2">visit the live site</a>
+              </div>
+            </div>
           </div>
-          </div>
-
-
 
           {/* card 2 */}
           <div className="project-card col m-3 p-4" >
-            <img
-              alt={wandering}
-              className="card-img-top"
-              src={wandering}
-            />
+          <div className="card-img-top flip2">
+            </div>
             <div className="card-body">
               <h5 className="card-title">The Wandering Comma</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -85,11 +63,8 @@ export default function Portfolio(props) {
 
           {/* card 3 */}
           <div className="project-card col m-3 p-4" >
-            <img
-              alt={nightIn}
-              className="card-img-top"
-              src={nightIn}
-            />
+          <div className="card-img-top flip3">
+            </div>
             <div className="card-body">
               <h5 className="card-title">A Night In</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -102,11 +77,8 @@ export default function Portfolio(props) {
 
           {/* card 4 */}
           <div className="project-card col m-3 p-4" >
-            <img
-              alt={pwa}
-              className="card-img-top"
-              src={pwa}
-            />
+          <div className="card-img-top flip4">
+            </div>
             <div className="card-body">
               <h5 className="card-title">PWA Text Editor</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -119,11 +91,8 @@ export default function Portfolio(props) {
 
           {/* card 5 */}
           <div className="project-card col m-3 p-4" >
-            <img
-              alt={weather}
-              className="card-img-top"
-              src={weather}
-            />
+          <div className="card-img-top flip5">
+            </div>
             <div className="card-body">
               <h5 className="card-title">Weather Dashboard</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -136,11 +105,8 @@ export default function Portfolio(props) {
 
           {/* card 6 */}
           <div className="project-card col m-3 p-4" >
-            <img
-              alt={scheduler}
-              className="card-img-top"
-              src={scheduler}
-            />
+          <div className="card-img-top flip6">
+            </div>
             <div className="card-body">
               <h5 className="card-title">Simple Scheduler</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -150,24 +116,6 @@ export default function Portfolio(props) {
               </div>
             </div>
           </div>
-
-
-          {/* card 7 */}
-          {/* <div className="project-card col m-3 p-4" >
-            <img
-              alt={codeQuiz}
-              className="card-img-top"
-              src={codeQuiz}
-            />
-            <div className="card-body">
-              <h5 className="card-title">Coding Quiz App</h5>
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <div className='d-flex justify-content-end'>
-                <a href="https://github.com/archonology" className="link">visit the repo</a>
-                <a href="https://github.com/archonology" className="link2">visit the live site</a>
-              </div>
-            </div>
-          </div> */}
 
           {/* end of cards */}
 
@@ -179,8 +127,16 @@ export default function Portfolio(props) {
           </p>
           <hr></hr>
           {/* video card 1 */}
-          <div className="video-card col m-3 p-4" >
+          <div className="video-card col-12 mb-3 p-4" >
             <div className="card-body">
+              <div className="ratio ratio-16x9 mb-4">
+                <iframe
+                  className='video'
+                  src="https://www.youtube.com/embed/5A9lBIHdNGY"
+                  title="Bubble World Demo"
+                  frameborder="0"
+                  allowFullScreen></iframe>
+              </div>
               <h5 className="card-title">BubbleWorld</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <div className='d-flex justify-content-end'>
@@ -191,8 +147,17 @@ export default function Portfolio(props) {
           </div>
 
           {/* video card 2 */}
-          <div className="video-card col m-3 p-4" >
+          <div className="video-card col-12 mb-3 p-4" >
             <div className="card-body">
+
+              <div className="ratio ratio-16x9 mb-4">
+                <iframe
+                  className='video'
+                  src="https://www.youtube.com/embed/L7r7JGepZZ4"
+                  title="eCommerce Back End Demo" frameborder="0"
+                  allowfullscreen>
+                </iframe>
+              </div>
               <h5 className="card-title">eCommerce</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <div className='d-flex justify-content-end'>
@@ -203,7 +168,7 @@ export default function Portfolio(props) {
           </div>
 
           {/* video card 3 */}
-          <div className="video-card col m-3 p-4" >
+          <div className="video-card col-12 mb-3 p-4" >
             <div className="card-body">
               <h5 className="card-title">Employee Library</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -215,7 +180,7 @@ export default function Portfolio(props) {
           </div>
 
           {/* video card 4 */}
-          <div className="video-card col m-3 p-4" >
+          <div className="video-card col-12 mb-3 p-4" >
             <div className="card-body">
               <h5 className="card-title">Team Generator</h5>
               <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -225,29 +190,6 @@ export default function Portfolio(props) {
               </div>
             </div>
           </div>
-
-          {/* <div className=" projects-body video-card">
-              
-              <div className="mt-3 embed-responsive embed-responsive-16by9">
-                <iframe width="1252" height="704" src="https://www.youtube.com/embed/5A9lBIHdNGY" title="Bubble World Demo"
-                  frameBorder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen></iframe>
-              </div>
-
-              <div className="mt-3 embed-responsive embed-responsive-16by9">
-                <iframe width="860" height="484" src="https://www.youtube.com/embed/L7r7JGepZZ4" title="eCommerce Back End Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div>
-
-              <div className="mt-3 embed-responsive embed-responsive-16by9">
-                <iframe width="860" height="484" src="https://www.youtube.com/embed/ZaHrOHW6bLg" title="Demo for Team Generator Project" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div>
-
-              <div className="mt-3 embed-responsive embed-responsive-16by9">
-                <iframe width="860" height="484" src="https://www.youtube.com/embed/r-aP_ufH47U" title="Employee Library Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-              </div>
-
-            </div> */}
 
         </div>
 

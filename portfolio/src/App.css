@@ -23,8 +23,8 @@ h1 {
 }
 
 .navbar .nav-tabs .nav-link {
-border-width: 0;
-border-color: transparent;
+  border-width: 0;
+  border-color: transparent;
 
 }
 
@@ -54,6 +54,72 @@ img {
   margin-bottom: 1em;
 }
 
+.flip {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/home-party-page.jpg);
+  background-size: cover;
+}
+
+.flip2 {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/wandering-comma.jpg);
+  background-size: cover;
+}
+
+.flip3 {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/a-night-in-page.jpg);
+  background-size: cover;
+}
+
+.flip4 {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/pwa-text-editor.jpg);
+  background-size: cover;
+}
+
+.flip5 {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/weather-dashboard.jpg);
+  background-size: cover;
+}
+
+.flip6 {
+  width: 400px;
+  height: 300px;
+  border-radius: 7px;
+  border: black solid 1px;
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+  margin-bottom: 1em;
+  background-image: url(./components/images/scheduler.jpg);
+  background-size: cover;
+}
+
 .portrait {
   box-shadow: none;
   max-width: 500px;
@@ -65,12 +131,16 @@ img {
 }
 
 .video-card {
-  max-width: 400px;
-  min-width: 300px;
   padding: 1em;
   border-radius: 8px;
   background-color: var(--storm);
   color: var(--studio);
+  box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
+}
+
+.video {
+  border-radius: 7px;
+  border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
 }
 
@@ -191,6 +261,29 @@ img:hover {
 
 }
 
+.flip:hover {
+  background-image: url(./components/images/homeParty.gif);
+}
+
+.flip2:hover {
+  background-image: url(./components/images/wandering.gif);
+}
+
+.flip3:hover {
+  background-image: url(./components/images/nightIn.gif);
+}
+
+.flip4:hover {
+  background-image: url(./components/images/textEditor.gif);
+}
+
+.flip5:hover {
+  background-image: url(./components/images/weather.gif);
+}
+
+.flip6:hover{
+  background-image: url(./components/images/scheduler.gif);
+  }
 
 /* css for default react page */
 .App {
