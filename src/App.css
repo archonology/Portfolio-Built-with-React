@@ -33,6 +33,10 @@ h2 {
   font-family: 'Cutive Mono', monospace;
 }
 
+h4 {
+  font-family: 'Cutive Mono', monospace;
+}
+
 p {
   font-family: 'Cutive Mono', monospace;
 }
@@ -52,6 +56,12 @@ img {
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
+}
+
+.resume {
+  margin-top: 1em;
+  margin-right: 5em;
+  margin-left: 5em;
 }
 
 .flip {
@@ -122,9 +132,8 @@ img {
 
 .portrait {
   box-shadow: none;
-  max-width: 500px;
+  max-width: 450px;
   border: none;
-  float: right;
   margin-left: 2em;
   padding: 3em;
   box-shadow: 5px 1px 17px rgb(223, 216, 216);
@@ -174,7 +183,7 @@ img {
 
 .link3 {
   font-family: 'Alexandria', sans-serif;
-  background-color: var(--clover);
+  background-color: var(--slate);
   color: var(--studio);
   margin-top: 1em;
   padding: 10px;
@@ -219,8 +228,38 @@ img {
 footer {
   padding: 2em;
   display: flex;
-  justify-content: flex-end;
+  position: absolute;
 }
+
+.linkedin {
+  width: 40px;
+  height: 30px;
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+  margin-left: 1em;
+  transition: 1s;
+}
+
+.github {
+  width: 30px;
+  height: 30px;
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+  margin-left: 10px;
+  transition: 1s;
+}
+
+.linkedin:hover {
+box-shadow: none;
+transform: scale(112%);
+}
+
+.github:hover {
+  box-shadow: none;
+  transform: scale(112%);
+  }
 
 a:hover {
   text-decoration: none;
@@ -253,7 +292,7 @@ img:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  background-color: var(--lghtclover);
+  background-color: var(--clover);
 }
 
 .contact-btn:hover {
