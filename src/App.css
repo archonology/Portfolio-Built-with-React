@@ -34,8 +34,13 @@ h2 {
 }
 
 h4 {
-  font-family: 'Cutive Mono', monospace;
+  font-family: 'Alexandria', sans-serif;
 }
+
+h5 {
+  text-align: center;
+}
+
 
 p {
   font-family: 'Cutive Mono', monospace;
@@ -58,10 +63,8 @@ img {
   margin-bottom: 1em;
 }
 
-.resume {
-  margin-top: 1em;
-  margin-right: 5em;
-  margin-left: 5em;
+.resume, .resume2 {
+max-width: 500px;
 }
 
 .flip {
@@ -192,6 +195,7 @@ img {
   border-radius: 8px;
   width: 200px;
   text-align: center;
+  transition: 1s;
 }
 
 .demos {
@@ -221,6 +225,7 @@ img {
   margin: 1em;
   background-color: var(--slate);
   border: none;
+  transition: 1s;
 }
 
 .error-text {
@@ -294,11 +299,12 @@ img:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  background-color: var(--clover);
+  transform: scale(112%);
+  /* background-color: var(--clover); */
 }
 
 .contact-btn:hover {
-  background-color: var(--clover);
+  transform: scale(112%);
 
 }
 
