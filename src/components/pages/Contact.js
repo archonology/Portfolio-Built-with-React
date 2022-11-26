@@ -64,6 +64,7 @@ function Contact() {
       <div className="contact-card">
         <h2 className="page-title">Contact</h2>
         <p>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
+        <hr></hr>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>

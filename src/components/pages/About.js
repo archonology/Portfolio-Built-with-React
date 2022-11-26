@@ -14,12 +14,13 @@ export default function About() {
       </div>
 
       <div className='col col-md-3 col-lg-6 order-1 '>
-        <h2>About</h2>
+        <h2>About Reed Meher</h2>
+        <hr></hr>
         <p>
-          Reed Meher (Meherdevs) is a junior full-stack web developer who can hold his own on the front-end and back-end. He has a track record of 12 years of top-notch soft skills and the ability to learn, pivot, and deliver clean, organized, and efficient code.
+          Reed Meher (Meherdevs) is a Full Stack Web Developer with a background in writing, marketing, design, and social work.  Refined editorial skills and creative problem solving to develop user-friendly applications. Recognized by employers and clients for kindness, humor, leadership, quality of work, and getting things done with integrity. 
         </p>
         <p>
-          Reed lives in Grand Marais, MN, along the edge of the Gitchigumi with his three daughters, his partner, grandparents, and their fur-children, Alma and Reiko. They love to make art, collect wildflowers, have dance parties.
+          Reed lives in Grand Marais, MN, along the edge of the Gitchigumi with his three daughters, his partner, grandparents, and their fur-children, Alma and Reiko. They love to make art, collect wildflowers, have dance parties, and play in the snow.
         </p>
         <p>
           When Reed and his partner get the chance(rare!), they love to travel, visit breweries, hike with Alma, duel in MtG, and craft goods in ESO.

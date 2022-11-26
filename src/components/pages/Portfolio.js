@@ -78,12 +78,14 @@ export default function Portfolio(props) {
         </div>
       </section>
 
-
-      <h2 className='mt-5'>Back End Demos</h2>
+      <hr></hr>
+      <h2 className='mt-5'>Back-End Demos</h2>
       <p>
-        back end demos.
+        These applications are purely back-end, so they are without front-end facing views. The demonstrations below show the functionality of the routes and back-end user interface.
       </p>
       <hr></hr>
+      <section className='container d-flex flex-wrap'>
+        <div className='row'>
       {/* video card 1 */}
       <div className="video-card col-12 mb-3 p-4" >
         <div className="card-body">
@@ -95,7 +97,7 @@ export default function Portfolio(props) {
               frameborder="0"
               allowFullScreen></iframe>
           </div>
-          <h5 className="card-title">BubbleWorld</h5>
+          <h5 className="card-title">Bubble World</h5>
           <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
           <div className='d-flex justify-content-end'>
             <a href="https://github.com/archonology/Bubble-World" target='_blank' rel='noreferrer' className="link">visit the repo</a>
@@ -124,35 +126,40 @@ export default function Portfolio(props) {
           </div>
         </div>
       </div>
-
-      {/* video card 3 */}
-      <div className="video-card col-12 mb-3 p-4" >
-        <div className="card-body">
-          <h5 className="card-title">Employee Library</h5>
-          <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
-          <div className='d-flex justify-content-end'>
-            <a href="https://github.com/archonology/Employee-Library" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-            <a href="https://youtu.be/r-aP_ufH47U" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
-          </div>
-        </div>
       </div>
+      </section>
 
-      {/* video card 4 */}
-      <div className="video-card col-12 mb-3 p-4" >
-        <div className="card-body">
-          <h5 className="card-title">Team Generator</h5>
-          <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
-          <div className='d-flex justify-content-end'>
-            <a href="https://github.com/archonology/Team-Profile-Generator" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-            <a href="https://youtu.be/ZaHrOHW6bLg" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+      <section className='container d-flex flex-wrap'>
+        <div className='row'>
+
+          {/* video card 4 */}
+          <div className="video-card col m-2 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">Team Generator</h5>
+              <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology/Team-Profile-Generator" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+                <a href="https://youtu.be/ZaHrOHW6bLg" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+              </div>
+            </div>
           </div>
+
+          {/* video card 3 */}
+          <div className="video-card col m-3 p-4" >
+            <div className="card-body">
+              <h5 className="card-title">Employee Library</h5>
+              <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
+              <div className='d-flex justify-content-end'>
+                <a href="https://github.com/archonology/Employee-Library" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+                <a href="https://youtu.be/r-aP_ufH47U" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+              </div>
+            </div>
+          </div>
+
         </div>
-      </div>
 
-    </div>
-
-    //   </section>
-    // </div >
+      </section>
+    </div >
 
 
 
