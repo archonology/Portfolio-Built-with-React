@@ -1,37 +1,13 @@
 import React, { useState } from 'react';
-// import { Mailer } from 'nodemailer-react'
-// import { contactAlertEmail } from '../../utils/emailAlert'
 import { validateEmail } from '../../utils/helpers';
-
-// import env from "react-dotenv";
 
 
 function Contact() {
 
-  //nodemailer
-  
-// const mailerConfig = {
-//   transport: {
-//     host: 'smtp.gmail.com',
-//     secure: true,
-//     auth: { user: env.em_User, pass: env.em_Pass, },
-//   },
-//   defaults: {
-//     from: { name: 'reed', address: 'reed@meherdevs.com' },
-//   },
-// }
-
-/** Record of all emails that will be available */
-// const emailsList = {
-//   contactAlertEmail,
-// }
-
-/** Instance of mailer to export */
-// const mailer = Mailer(mailerConfig, emailsList)
 
 
   // Create state variables for the fields in the form
-  // We are also setting their initial values to an empty string
+  // also setting their initial values to an empty string
   const [email, setEmail] = useState('');
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
@@ -43,7 +19,7 @@ function Contact() {
     const inputType = target.name;
     const inputValue = target.value;
 
-    // Based on the input type, we set the state of either email, name, and message
+    // Based on the input type, sets the state of either email, name, and message
     if (inputType === 'email') {
       setEmail(inputValue);
     } else if (inputType === 'name') {
@@ -58,7 +34,7 @@ function Contact() {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     e.preventDefault();
 
-    // First we check to see if the email is not valid or if the name is empty. If so we set an error message to be displayed on the page.
+    // First check to see if the email is not valid or if the name is empty. If so, set an error message to be displayed on the page.
     if (!validateEmail(email) || !name) {
       setErrorMessage(`
       Sorry, ${name}, 
@@ -66,9 +42,9 @@ function Contact() {
       Please check it and try again, 
       thanks! 🪴
       `);
-      // We want to exit out of this code block if something is wrong so that the user can correct it
+      //  exit out of this code block if something is wrong so that the user can correct it
       return;
-      // Then we check to see if the message is not valid. If so, we set an error message regarding the message.
+      // Then check to see if the message is not valid. If so, set an error message regarding the message.
     }
 
     alert(`
@@ -76,22 +52,18 @@ function Contact() {
     I'll be in touch soon. 🌿
     - Reed Meher
     `);
-    // mailer.send(contactAlertEmail, {
-    //   name: {name},
-    //   email: {email},
-    //   message: {message},
-    // });
-    // If everything goes according to plan, we want to clear out the input after a successful registration.
+
     setName('');
     setMessage('');
     setEmail('');
   };
+
   return (
 
     <div className="row d-flex justify-content-center">
       <div className="contact-card">
         <h2 className="page-title">Contact</h2>
-        <p>Sample text. Reach out!</p>
+        <p>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
@@ -117,7 +89,7 @@ function Contact() {
             placeholder="email"
             className='input'
           />
-                    <br>
+          <br>
           </br>
           <textarea
             value={message}

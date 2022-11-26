@@ -168,10 +168,11 @@ max-width: 500px;
   background-color: var(--clover);
   color: var(--studio);
   margin-top: 5px;
-  margin-right: 7px;
+  margin-right: 1em;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
+  transition: 1s;
 }
 
 .link2 {
@@ -179,10 +180,11 @@ max-width: 500px;
   background-color: var(--lake);
   color: var(--studio);
   margin-top: 5px;
-  margin-right: 7px;
+  margin-right: 1em;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
+  transition: 1s;
 }
 
 .link3 {
@@ -285,14 +287,14 @@ img:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  background-color: var(--lghtclover);
+  transform: scale(108%);
 }
 
 .link2:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  background-color: var(--lghtlake);
+  transform: scale(108%);
 }
 
 .link3:hover {
@@ -300,12 +302,11 @@ img:hover {
   font-style: none;
   color: var(--studio);
   transform: scale(112%);
-  /* background-color: var(--clover); */
 }
 
 .contact-btn:hover {
   transform: scale(112%);
-
+background-color: var(--slate);
 }
 
 .flip:hover {

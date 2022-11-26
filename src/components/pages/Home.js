@@ -10,34 +10,28 @@ export default function Home() {
   return (
     <main >
 
-<div className='row d-flex'>
-      <div className='col col-md-6 col-lg-6  order-2'>
-        <img
-          alt={portrait}
-          className="portrait"
-          src={portrait}
-        />
-      </div>
+      <div className='row d-flex'>
+        <div className='col col-md-6 col-lg-6  order-2'>
+          <img
+            alt={portrait}
+            className="portrait"
+            src={portrait}
+          />
+        </div>
 
         <div className='col col-md-3 col-lg-6 order-1 '>
           <h2>Home</h2>
 
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-            velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-            ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-            non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-            ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-            rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-            tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-            porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-            vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus.
+            MeherDevs is Reed Meher: a budding web developer who is seeking compelling projects and new ideas.  On this site you will find Reed's development portfolio, a contact form, and links to my Github and LinkedIn pages. Check out my resume, which is available for download in the resume section.
+          </p>
+          <p>
+            Thanks for stopping by! ☕️🪴
           </p>
         </div>
 
-  
+
       </div>
 
     </main>

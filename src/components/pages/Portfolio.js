@@ -4,53 +4,53 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-  _id: 1,
-  customClass: 'card-img-top flip',
-  title: 'Home Party',
-  description: 'A full-stack website built collaboratively. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it.',
-  repoUrl:'https://github.com/archonology/Home-Party',
-  deployedUrl:'https://pacific-lake-30103.herokuapp.com'
-},
-{
-  _id: 2,
-  customClass: 'card-img-top flip2',
-  title: 'The Wandering Comma',
-  description: 'This application allows for users to sign up, login in, and create and edit posts and comments.',
-  repoUrl:'https://github.com/archonology/The-Wandering-Comma-Tech-Blog',
-  deployedUrl:'https://morning-caverns-74911.herokuapp.com/'
-},
-{
-  _id: 3,
-  customClass: 'card-img-top flip3',
-  title: 'A Night In',
-  description: 'Utilizes public APIs to solve the problem of planning a night home of dining, drinking, and watching a show. This app will help a user find culinary and media inspiration through randomized searches to find ideas.',
-  repoUrl:'https://github.com/archonology/A-Night-In',
-  deployedUrl:'https://archonology.github.io/A-Night-In/'
-},
-{
-  _id: 4,
-  customClass: 'card-img-top flip4',
-  title: 'PWA Text Editor',
-  description: 'Full stack PWA text editor that creates an easy place to keep coding notes or practice functions. Uses Webpack, Workbox, Express, and Idb.',
-  repoUrl:'https://github.com/archonology/PWA-Text-Editor',
-  deployedUrl:'https://stormy-brook-86933.herokuapp.com/'
-},
-{
-  _id: 5,
-  customClass: 'card-img-top flip5',
-  title: 'PWA Text Editor',
-  description: 'A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
-  repoUrl:'https://github.com/archonology/Weather-Dashboard',
-  deployedUrl:'https://archonology.github.io/Weather-Dashboard/'
-},
-{
-  _id: 6,
-  customClass: 'card-img-top flip6',
-  title: 'Simple Scheduler',
-  description: 'Using Javascript and CSS to create a simple work day scheduling application.',
-  repoUrl:'https://github.com/archonology/Work-Day-Scheduler',
-  deployedUrl:'https://archonology.github.io/Work-Day-Scheduler/'
-}
+    _id: 1,
+    customClass: 'card-img-top flip',
+    title: 'Home Party',
+    description: 'A full-stack website built collaboratively. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it.',
+    repoUrl: 'https://github.com/archonology/Home-Party',
+    deployedUrl: 'https://pacific-lake-30103.herokuapp.com'
+  },
+  {
+    _id: 2,
+    customClass: 'card-img-top flip2',
+    title: 'The Wandering Comma',
+    description: 'This application allows for users to sign up, login in, and create and edit posts and comments.',
+    repoUrl: 'https://github.com/archonology/The-Wandering-Comma-Tech-Blog',
+    deployedUrl: 'https://morning-caverns-74911.herokuapp.com/'
+  },
+  {
+    _id: 3,
+    customClass: 'card-img-top flip3',
+    title: 'A Night In',
+    description: 'Utilizes public APIs to solve the problem of planning a night home of dining, drinking, and watching a show. This app will help a user find culinary and media inspiration through randomized searches to find ideas.',
+    repoUrl: 'https://github.com/archonology/A-Night-In',
+    deployedUrl: 'https://archonology.github.io/A-Night-In/'
+  },
+  {
+    _id: 4,
+    customClass: 'card-img-top flip4',
+    title: 'PWA Text Editor',
+    description: 'Full stack PWA text editor that creates an easy place to keep coding notes or practice functions. Uses Webpack, Workbox, Express, and Idb.',
+    repoUrl: 'https://github.com/archonology/PWA-Text-Editor',
+    deployedUrl: 'https://stormy-brook-86933.herokuapp.com/'
+  },
+  {
+    _id: 5,
+    customClass: 'card-img-top flip5',
+    title: 'PWA Text Editor',
+    description: 'A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
+    repoUrl: 'https://github.com/archonology/Weather-Dashboard',
+    deployedUrl: 'https://archonology.github.io/Weather-Dashboard/'
+  },
+  {
+    _id: 6,
+    customClass: 'card-img-top flip6',
+    title: 'Simple Scheduler',
+    description: 'Using Javascript and CSS to create a simple work day scheduling application.',
+    repoUrl: 'https://github.com/archonology/Work-Day-Scheduler',
+    deployedUrl: 'https://archonology.github.io/Work-Day-Scheduler/'
+  }
 ];
 
 export default function Portfolio(props) {
@@ -60,98 +60,96 @@ export default function Portfolio(props) {
       <h2>Portfolio</h2>
 
       <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula. Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero.
+        Below you can check out some of my favorite, recent projects.  The first 6 are full-stack or front-end; below that, you'll find demos to my favorite back-end applications.
       </p>
       <hr></hr>
-        
-  <section className='container d-flex flex-wrap'>
-  <div className='row'>
-{/* map through projects object */}
-{projects.map((project) => (
 
-<div className="project-card col m-3 p-4">
-  <ProjectCard customClass={project.customClass} title={project.title} description={project.description} repoUrl={project.repoUrl} deployedUrl={project.deployedUrl}  />
-</div>
+      <section className='container d-flex flex-wrap'>
+        <div className='row'>
+          {/* map through projects object */}
+          {projects.map((project) => (
 
-))};
-
-</div>
-</section>
-
-
-          <h2 className='mt-5'>Back End Demos</h2>
-          <p>
-            back end demos.
-          </p>
-          <hr></hr>
-          {/* video card 1 */}
-          <div className="video-card col-12 mb-3 p-4" >
-            <div className="card-body">
-              <div className="ratio ratio-16x9 mb-4">
-                <iframe
-                  className='video'
-                  src="https://www.youtube.com/embed/5A9lBIHdNGY"
-                  title="Bubble World Demo"
-                  frameborder="0"
-                  allowFullScreen></iframe>
-              </div>
-              <h5 className="card-title">BubbleWorld</h5>
-              <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
-              <div className='d-flex justify-content-end'>
-                <a href="https://github.com/archonology/Bubble-World" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-                <a href="https://youtu.be/5A9lBIHdNGY" target='_blank' rel='noreferrer'className="link2">watch the demo</a>
-              </div>
+            <div className="project-card col m-3 p-4">
+              <ProjectCard customClass={project.customClass} title={project.title} description={project.description} repoUrl={project.repoUrl} deployedUrl={project.deployedUrl} />
             </div>
-          </div>
 
-          {/* video card 2 */}
-          <div className="video-card col-12 mb-3 p-4" >
-            <div className="card-body">
-
-              <div className="ratio ratio-16x9 mb-4">
-                <iframe
-                  className='video'
-                  src="https://www.youtube.com/embed/L7r7JGepZZ4"
-                  title="eCommerce Back End Demo" frameborder="0"
-                  allowfullscreen>
-                </iframe>
-              </div>
-              <h5 className="card-title">eCommerce</h5>
-              <p className="card-text">Back end application to develop my skill in back end technologies and learn about managing ORM techniques.</p>
-              <div className='d-flex justify-content-end'>
-              <a href="https://github.com/archonology/E-Commerce-Back-End" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-                <a href="https://youtu.be/L7r7JGepZZ4" target='_blank' rel='noreferrer'className="link2">watch the demo</a>
-              </div>
-            </div>
-          </div>
-
-          {/* video card 3 */}
-          <div className="video-card col-12 mb-3 p-4" >
-            <div className="card-body">
-              <h5 className="card-title">Employee Library</h5>
-              <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
-              <div className='d-flex justify-content-end'>
-              <a href="https://github.com/archonology/Employee-Library" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-                <a href="https://youtu.be/r-aP_ufH47U" target='_blank' rel='noreferrer'className="link2">watch the demo</a>
-              </div>
-            </div>
-          </div>
-
-          {/* video card 4 */}
-          <div className="video-card col-12 mb-3 p-4" >
-            <div className="card-body">
-              <h5 className="card-title">Team Generator</h5>
-              <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
-              <div className='d-flex justify-content-end'>
-              <a href="https://github.com/archonology/Team-Profile-Generator" target='_blank' rel='noreferrer' className="link">visit the repo</a>
-                <a href="https://youtu.be/ZaHrOHW6bLg" target='_blank' rel='noreferrer'className="link2">watch the demo</a>
-              </div>
-            </div>
-          </div>
+          ))};
 
         </div>
+      </section>
+
+
+      <h2 className='mt-5'>Back End Demos</h2>
+      <p>
+        back end demos.
+      </p>
+      <hr></hr>
+      {/* video card 1 */}
+      <div className="video-card col-12 mb-3 p-4" >
+        <div className="card-body">
+          <div className="ratio ratio-16x9 mb-4">
+            <iframe
+              className='video'
+              src="https://www.youtube.com/embed/5A9lBIHdNGY"
+              title="Bubble World Demo"
+              frameborder="0"
+              allowFullScreen></iframe>
+          </div>
+          <h5 className="card-title">BubbleWorld</h5>
+          <p className="card-text">An experiment in understanding and developing a social media app. Bubble World is a backend application that utilizes MongoDB, Mongoose, and Express to explore the possiblities of social media.</p>
+          <div className='d-flex justify-content-end'>
+            <a href="https://github.com/archonology/Bubble-World" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+            <a href="https://youtu.be/5A9lBIHdNGY" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+          </div>
+        </div>
+      </div>
+
+      {/* video card 2 */}
+      <div className="video-card col-12 mb-3 p-4" >
+        <div className="card-body">
+
+          <div className="ratio ratio-16x9 mb-4">
+            <iframe
+              className='video'
+              src="https://www.youtube.com/embed/L7r7JGepZZ4"
+              title="eCommerce Back End Demo" frameborder="0"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <h5 className="card-title">eCommerce</h5>
+          <p className="card-text">Back end application to develop my skill in back end technologies and learn about managing ORM techniques.</p>
+          <div className='d-flex justify-content-end'>
+            <a href="https://github.com/archonology/E-Commerce-Back-End" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+            <a href="https://youtu.be/L7r7JGepZZ4" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+          </div>
+        </div>
+      </div>
+
+      {/* video card 3 */}
+      <div className="video-card col-12 mb-3 p-4" >
+        <div className="card-body">
+          <h5 className="card-title">Employee Library</h5>
+          <p className="card-text">Backend employee database management program. Solves the need for managing an employee database easily through the backend.</p>
+          <div className='d-flex justify-content-end'>
+            <a href="https://github.com/archonology/Employee-Library" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+            <a href="https://youtu.be/r-aP_ufH47U" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+          </div>
+        </div>
+      </div>
+
+      {/* video card 4 */}
+      <div className="video-card col-12 mb-3 p-4" >
+        <div className="card-body">
+          <h5 className="card-title">Team Generator</h5>
+          <p className="card-text">I wanted to be able to generate an html page for team projects. Having a page to keep track of my group helps keep things organized and makes it easy to find contact info for my team and important links, like their github accounts or school info.</p>
+          <div className='d-flex justify-content-end'>
+            <a href="https://github.com/archonology/Team-Profile-Generator" target='_blank' rel='noreferrer' className="link">visit the repo</a>
+            <a href="https://youtu.be/ZaHrOHW6bLg" target='_blank' rel='noreferrer' className="link2">watch the demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
 
     //   </section>
     // </div >
