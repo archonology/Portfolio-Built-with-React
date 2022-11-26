@@ -7,11 +7,13 @@ function Footer() {
                 <img
                     className='linkedin'
                     src='https://indyme.com/wp-content/uploads/2017/07/LinkedIn-Icon.png'
+                    alt='linkedIn Icon'
                 />
             </a><a href='https://github.com/archonology' target='_blank' rel='noreferrer'>
                 <img
                     className='github'
                     src='https://cdn-icons-png.flaticon.com/512/25/25231.png'
+                    alt='Github Icon'
                 />
             </a>
         </footer>

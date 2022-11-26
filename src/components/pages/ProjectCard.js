@@ -1,5 +1,4 @@
 import React from 'react';
-import homeParty from '../images/home-party-page.jpg';
 
 
 export default function ProjectCard(props) {

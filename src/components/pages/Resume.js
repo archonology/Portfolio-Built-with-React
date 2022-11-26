@@ -4,8 +4,8 @@ import resume from '../materials/rm-resume.pdf';
 export default function Resume() {
   return (
     <section >
-         <h2>Resume</h2>
-          <hr></hr>
+      <h2>Resume</h2>
+      <hr></hr>
       <div className='container d-flex flex-wrap'>
         <div className='row'>
 
@@ -39,18 +39,15 @@ export default function Resume() {
 
             <h4>Education:</h4>
 
-            <p>  <strong> Boot Camp Certificate:</strong> University of Minnesota, Minneapolis, MN
-              <p>  A 24-week intensive program focused on gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning. GPA: 4.0
-              </p>
+            <p>  <strong> Boot Camp Certificate:</strong> University of Minnesota, Minneapolis, MN </p>
+            <p>  A 24-week intensive program focused on gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning. GPA: 4.0
             </p>
- 
-            <p>  <strong> Bachelor’s Degree:</strong> University of Minnesota, Morris, MN 
-              <p>  A BFA Degree in English Literature with a minor in Studio Art.  GPA: 3.74
-              </p>
+
+            <p>  <strong> Bachelor’s Degree:</strong> University of Minnesota, Morris, MN </p>
+            <p>  A BFA Degree in English Literature with a minor in Studio Art.  GPA: 3.74
             </p>
 
           </div>
-
         </div>
       </div>
       <h5>Trained in JAVASCRIPT | CSS |  MERN | ORM | HTML | SEQUELIZE | MySQL | + More </h5>
