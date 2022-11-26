@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Built-with-React/static/css/main.e52fe0d5.css",
+    "main.js": "/Portfolio-Built-with-React/static/js/main.78827d03.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
+    "static/media/wandering.gif": "/Portfolio-Built-with-React/static/media/wandering.01f106fd03cae61fad6f.gif",
+    "static/media/textEditor.gif": "/Portfolio-Built-with-React/static/media/textEditor.0dd5d86c4ab7ac45437d.gif",
+    "static/media/nightIn.gif": "/Portfolio-Built-with-React/static/media/nightIn.4b427dfaa6d26e7e3d8e.gif",
+    "static/media/weather.gif": "/Portfolio-Built-with-React/static/media/weather.12797078c15e748bf3bc.gif",
+    "static/media/homeParty.gif": "/Portfolio-Built-with-React/static/media/homeParty.5e8d3a3ce856a20e712f.gif",
+    "static/media/scheduler.gif": "/Portfolio-Built-with-React/static/media/scheduler.d3503d392435d7f20737.gif",
+    "static/media/home-party-page.jpg": "/Portfolio-Built-with-React/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/scheduler.jpg": "/Portfolio-Built-with-React/static/media/scheduler.1f9416c95bc000c30204.jpg",
+    "static/media/weather-dashboard.jpg": "/Portfolio-Built-with-React/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
+    "static/media/a-night-in-page.jpg": "/Portfolio-Built-with-React/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
+    "static/media/wandering-comma.jpg": "/Portfolio-Built-with-React/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
+    "static/media/pwa-text-editor.jpg": "/Portfolio-Built-with-React/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
+    "static/media/rm-resume.pdf": "/Portfolio-Built-with-React/static/media/rm-resume.638cb745d7dc1eb66775.pdf",
+    "index.html": "/Portfolio-Built-with-React/index.html",
+    "main.e52fe0d5.css.map": "/Portfolio-Built-with-React/static/css/main.e52fe0d5.css.map",
+    "main.78827d03.js.map": "/Portfolio-Built-with-React/static/js/main.78827d03.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e52fe0d5.css",
+    "static/js/main.78827d03.js"
+  ]
+}
