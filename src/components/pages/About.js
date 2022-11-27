@@ -2,20 +2,13 @@ import React from 'react';
 import portrait from '../images/PortraitGif.gif';
 
 export default function About() {
+
   return (
 
-    <div className='row d-flex justify-content-center'>
-      <div className='col col-md-6 col-lg-6 order-2 '>
-        <img
-          alt={portrait}
-          className="portrait"
-          src={portrait}
-        />
-      </div>
-
-      <div className='col col-md-3 col-lg-6 order-1 '>
+    <div>
         <h2>About Reed Meher</h2>
         <hr></hr>
+      <div className='col col-md-10 col-lg-10'>
         <p>
           Reed Meher (Meherdevs) is a Full Stack Web Developer with a background in writing, marketing, design, and social work.  Refined editorial skills and creative problem solving to develop user-friendly applications. Recognized by employers and clients for kindness, humor, leadership, quality of work, and getting things done with integrity. 
         </p>
@@ -26,6 +19,16 @@ export default function About() {
           When Reed and his partner get the chance(rare!), they love to travel, visit breweries, hike with Alma, duel in MtG, and craft goods in ESO.
         </p>
       </div>
+
+      <div className='col col-md-6 col-lg-6 order-2 '>
+        <img
+          alt={portrait}
+          className="portrait"
+          src={portrait}
+        />
+      </div>
+
     </div>
+    
   );
 }
