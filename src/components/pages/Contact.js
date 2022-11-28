@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
-
+import emailjs from '@emailjs/browser';
 
 function Contact() {
   // Create state variables for the fields in the form
@@ -9,6 +9,19 @@ function Contact() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -69,7 +82,7 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <form className="form contact-form">
+        <form className="form contact-form" ref={form} onSubmit={sendEmail}>
 
           <input
             value={name}
