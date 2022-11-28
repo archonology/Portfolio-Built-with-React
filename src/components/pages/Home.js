@@ -12,7 +12,7 @@ export default function Home() {
           <hr></hr>
         <div className='col col-md-10 col-lg-6 order-1 '>
           <p>
-            MeherDevs is Reed Meher: a budding web developer who is seeking compelling projects and new ideas.  On this site you will find Reed's development portfolio, a contact form, and links to his Github and LinkedIn pages. Check out Reed's resume, which is available for download in the resume section of this site.
+            MeherDevs is Reed Meher: a budding web developer who is seeking compelling projects and new ideas.  On this site you will find Reed's development portfolio, a contact form, his resume, and links to his Github and LinkedIn pages. 
           </p>
           <p>
             Thanks for stopping by! ☕️🪴

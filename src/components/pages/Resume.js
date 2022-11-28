@@ -11,7 +11,7 @@ export default function Resume() {
 
           <div className='resume2 col m-3 mb-1 p-4'>
             <h4>Key Work Accomplishments:</h4>
-
+            <br></br>
             <p> • Top-ranked from client feedback, quality of documentation, critical-thinking skills, and never missing deadlines. (Cook County PHHS)
             </p>
             <p>   • Known and recognized by supervisors, attorneys, tribal agencies, and judges for settling cases ahead of trial via advanced skills in mediation, communication, investigation, planning, and collaboration. (Cook County PHHS)
@@ -26,7 +26,7 @@ export default function Resume() {
           <div className='resume col m-3 mb-1 p-4'>
 
             <h4>Developer Highlights:</h4>
-
+            <br></br>
             <p>   • Clean code written in HTML, CSS, JS with front and backend technologies.
             </p>
             <p>   • Experience working on coding teams in an AGILE environment, and flying solo, too, to push out MVP and beyond.

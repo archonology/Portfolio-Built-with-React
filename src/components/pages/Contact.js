@@ -60,11 +60,13 @@ function Contact() {
 
   return (
 
-    <div className="row d-flex justify-content-center">
+    <div>
       <div className="contact-card">
         <h2 className="page-title">Contact</h2>
-        <p>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
         <hr></hr>
+        <div className='col col-md-6'>
+        <p className='m'>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
+        
         {errorMessage && (
           <div>
             <p className="error-text">{errorMessage}</p>
@@ -104,6 +106,7 @@ function Contact() {
           </br>
           <button type="button" className='link contact-btn' onClick={handleFormSubmit}>Submit</button>
         </form>
+        </div>
       </div>
     </div>
   );
