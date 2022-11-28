@@ -68,7 +68,7 @@ export default function Portfolio(props) {
           {/* map through projects object */}
           {projects.map((project) => (
 
-            <div className="project-card col m-3 p-4">
+            <div key={project._id} className="project-card col m-3 p-4">
               <ProjectCard customClass={project.customClass} title={project.title} description={project.description} repoUrl={project.repoUrl} deployedUrl={project.deployedUrl} />
             </div>
 
@@ -93,7 +93,7 @@ export default function Portfolio(props) {
                   className='video'
                   src="https://www.youtube.com/embed/5A9lBIHdNGY"
                   title="Bubble World Demo"
-                  frameborder="0"
+                  frameBorder="0"
                   allowFullScreen></iframe>
               </div>
               <h5 className="card-title">Bubble World</h5>
@@ -113,8 +113,8 @@ export default function Portfolio(props) {
                 <iframe
                   className='video'
                   src="https://www.youtube.com/embed/L7r7JGepZZ4"
-                  title="eCommerce Back End Demo" frameborder="0"
-                  allowfullscreen>
+                  title="eCommerce Back End Demo" frameBorder="0"
+                  allowFullScreen>
                 </iframe>
               </div>
               <h5 className="card-title">eCommerce</h5>
