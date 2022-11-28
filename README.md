@@ -7,6 +7,7 @@ View the deployed site: https://archonology.github.io/Portfolio-Built-with-React
 ![screenshot](./src/components/images/portfolio%20view.png)    
 ## Table of Contents:
 #### [Description](#description)
+#### [Usage](#usage)
 #### [Technology](#technology)
 #### [Questions](#questions)
 
@@ -14,6 +15,14 @@ View the deployed site: https://archonology.github.io/Portfolio-Built-with-React
 As I've learned new technologies, I decided to get more practice and implement some of the many things I've learned. This portfolio site isn't just a refactor of my former site (https://github.com/archonology/myPortfolio), it is a total rebuild from the ground up. 
 
 This application is built with React and utilizes emailJS (https://www.emailjs.com/) to route messages to me from the contact form(no need for a back-end on a portfolio site). 
+
+## Usage
+To show how emailJS is functioning in my site, here is an example screenshot of a message being sent and the alert that pops up upon submission:
+![screenshot](./src/components/images/sample%20message%20sent.png)
+
+And after submitting, I get the following email: 
+![screenshot](./src/components/images/sample%20message%20recieved.png)
+
     
 ## Technology
 In addition to React and EmailJS, this application utilizes Bootstrap, and gh-pages(for deployment). In coming developments, I plan to utilize the React-Spring library, or Anime.js.  I believe less is more when it comes to animations, so I've decided to wait a bit and ponder where animations would really benefit the site.   
