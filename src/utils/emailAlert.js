@@ -1,4 +1,4 @@
-export const emailAlert = ({ name, email, message }) => ({
+export const newContactEmail = ({ name, email, message }) => ({
     subject: `You got a message from ${name}!`,
     body: (
       <div>

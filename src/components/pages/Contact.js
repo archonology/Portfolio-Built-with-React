@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import env from "react-dotenv";
+import { Mailer } from 'nodemailer-react'
+import { newContactEmail } from '../../utils/emailAlert'
 
 
 function Contact() {
 
+  //transport object with outgoing mail server
   const transport = {
     host: 'smtp.mail.me.com',
     port: 587,
@@ -12,6 +15,13 @@ function Contact() {
     auth: { user: env.API_URL.user, pass: env.API_URL.password },
 
   }
+
+  //sets default from address
+  const defaults = {
+    from: "reed@meherdevs.com",
+  }
+
+  const mailer = Mailer(transport, newContactEmail)
 
 
   // Create state variables for the fields in the form
@@ -73,47 +83,47 @@ function Contact() {
         <h2 className="page-title">Contact</h2>
         <hr></hr>
         <div className='col col-md-6'>
-        <p className='m'>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
-        
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <form className="form contact-form">
+          <p className='m'>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
 
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="name"
-            className='input'
-          />
-          <br>
-          </br>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="email"
-            className='input'
-          />
-          <br>
-          </br>
-          <textarea
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="textArea"
-            placeholder="message"
-            className='textarea'
-          />
-          <br>
-          </br>
-          <button type="button" className='link contact-btn' onClick={handleFormSubmit}>Submit</button>
-        </form>
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <form className="form contact-form">
+
+            <input
+              value={name}
+              name="name"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="name"
+              className='input'
+            />
+            <br>
+            </br>
+            <input
+              value={email}
+              name="email"
+              onChange={handleInputChange}
+              type="text"
+              placeholder="email"
+              className='input'
+            />
+            <br>
+            </br>
+            <textarea
+              value={message}
+              name="message"
+              onChange={handleInputChange}
+              type="textArea"
+              placeholder="message"
+              className='textarea'
+            />
+            <br>
+            </br>
+            <button type="button" className='link contact-btn' onClick={handleFormSubmit}>Submit</button>
+          </form>
         </div>
       </div>
     </div>
