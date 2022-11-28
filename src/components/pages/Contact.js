@@ -71,6 +71,13 @@ function Contact() {
     - Reed Meher
     `);
 
+   mailer.send('newContactEmail', {
+      name: {name},
+      body: {message},
+    }, {
+      to: {email},
+    })
+
     setName('');
     setMessage('');
     setEmail('');
@@ -79,6 +86,7 @@ function Contact() {
   return (
 
     <div>
+      
       <div className="contact-card">
         <h2 className="page-title">Contact</h2>
         <hr></hr>
