@@ -1,9 +1,17 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import env from "react-dotenv";
 
 
 function Contact() {
 
+  const transport = {
+    host: 'smtp.mail.me.com',
+    port: 587,
+    secure: false,
+    auth: { user: env.API_URL.user, pass: env.API_URL.password },
+
+  }
 
 
   // Create state variables for the fields in the form
