@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-Built-with-React/static/css/main.6b296f4b.css",
-    "main.js": "/Portfolio-Built-with-React/static/js/main.d5b1f1b2.js",
+    "main.css": "/Portfolio-Built-with-React/static/css/main.fb7e929e.css",
+    "main.js": "/Portfolio-Built-with-React/static/js/main.06015491.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
     "static/media/wandering.gif": "/Portfolio-Built-with-React/static/media/wandering.01f106fd03cae61fad6f.gif",
@@ -18,12 +18,12 @@
     "static/media/pwa-text-editor.jpg": "/Portfolio-Built-with-React/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
     "static/media/rm-resume.pdf": "/Portfolio-Built-with-React/static/media/rm-resume.638cb745d7dc1eb66775.pdf",
     "index.html": "/Portfolio-Built-with-React/index.html",
-    "main.6b296f4b.css.map": "/Portfolio-Built-with-React/static/css/main.6b296f4b.css.map",
-    "main.d5b1f1b2.js.map": "/Portfolio-Built-with-React/static/js/main.d5b1f1b2.js.map",
+    "main.fb7e929e.css.map": "/Portfolio-Built-with-React/static/css/main.fb7e929e.css.map",
+    "main.06015491.js.map": "/Portfolio-Built-with-React/static/js/main.06015491.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b296f4b.css",
-    "static/js/main.d5b1f1b2.js"
+    "static/css/main.fb7e929e.css",
+    "static/js/main.06015491.js"
   ]
 }
