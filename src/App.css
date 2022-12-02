@@ -245,33 +245,24 @@ footer {
 
 .linkedin {
   width: 40px;
-  height: 30px;
+  height: auto;
   border-radius: none;
-  border: none;
+  border: white solid 1px;
   box-shadow: none;
-  margin-left: 1em;
+  margin-left: 6px;
   transition: 1s;
 }
 
 .github {
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: auto;
   border-radius: none;
-  border: none;
+  border: white solid 3px;
   box-shadow: none;
-  margin-left: 10px;
+  margin-left: 5px;
   transition: 1s;
 }
 
-.linkedin:hover {
-  box-shadow: none;
-  transform: scale(112%);
-}
-
-.github:hover {
-  box-shadow: none;
-  transform: scale(112%);
-}
 
 a:hover {
   text-decoration: none;
@@ -279,7 +270,7 @@ a:hover {
 }
 
 img:hover {
-  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
+  box-shadow: 8px 8px 18px rgba(14, 14, 14, 0.609);
 }
 
 .portrait:hover {
