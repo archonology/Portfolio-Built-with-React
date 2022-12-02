@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Built-with-React/static/css/main.e467278e.css",
+    "main.css": "/Portfolio-Built-with-React/static/css/main.27a58406.css",
     "main.js": "/Portfolio-Built-with-React/static/js/main.01041e10.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
@@ -12,12 +12,12 @@
     "static/media/pwa-text-editor.jpg": "/Portfolio-Built-with-React/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
     "static/media/rm-resume.pdf": "/Portfolio-Built-with-React/static/media/rm-resume.3cf964a6b05e5972c400.pdf",
     "index.html": "/Portfolio-Built-with-React/index.html",
-    "main.e467278e.css.map": "/Portfolio-Built-with-React/static/css/main.e467278e.css.map",
+    "main.27a58406.css.map": "/Portfolio-Built-with-React/static/css/main.27a58406.css.map",
     "main.01041e10.js.map": "/Portfolio-Built-with-React/static/js/main.01041e10.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e467278e.css",
+    "static/css/main.27a58406.css",
     "static/js/main.01041e10.js"
   ]
 }
