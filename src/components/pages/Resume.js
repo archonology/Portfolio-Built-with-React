@@ -51,6 +51,7 @@ export default function Resume() {
         </div>
       </div>
       <h5>Trained in JAVASCRIPT | CSS |  MERN | ORM | HTML | SEQUELIZE | MySQL | + More </h5>
+      
       <div className='d-flex justify-content-center'>
         <a href={resume} className='link3' download>Download Resume</a>
       </div>

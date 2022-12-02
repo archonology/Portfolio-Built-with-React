@@ -66,8 +66,9 @@ img {
   margin-bottom: 1em;
 }
 
-.resume, .resume2 {
-max-width: 500px;
+.resume,
+.resume2 {
+  max-width: 500px;
 }
 
 .flip {
@@ -174,7 +175,7 @@ max-width: 500px;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
-  transition: 1s;
+  transition: .5s;
 }
 
 .link2 {
@@ -186,7 +187,7 @@ max-width: 500px;
   padding: 10px;
   text-decoration: none;
   border-radius: 8px;
-  transition: 1s;
+  transition: .5s;
 }
 
 .link3 {
@@ -199,7 +200,7 @@ max-width: 500px;
   border-radius: 8px;
   width: 200px;
   text-align: center;
-  transition: 1s;
+  transition: .5s;
 }
 
 .demos {
@@ -263,14 +264,14 @@ footer {
 }
 
 .linkedin:hover {
-box-shadow: none;
-transform: scale(112%);
+  box-shadow: none;
+  transform: scale(112%);
 }
 
 .github:hover {
   box-shadow: none;
   transform: scale(112%);
-  }
+}
 
 a:hover {
   text-decoration: none;
@@ -289,30 +290,30 @@ img:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  transform: scale(108%);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .link2:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  transform: scale(108%);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
 }
 
 .link3:hover {
   text-decoration: none;
   font-style: none;
   color: var(--studio);
-  transform: scale(112%);
+  box-shadow: 10px 8px 18px rgba(14, 14, 14, 0.609);
 }
 
 .contact-btn:hover {
-  transform: scale(112%);
-background-color: var(--slate);
+  box-shadow: 10px 12px 18px rgba(14, 14, 14, 0.609);
+  background-color: var(--slate);
 }
 
-  @media screen and (max-width: 800px) {
-    .project-card {
-      margin: 1px;
-    }
+@media screen and (max-width: 800px) {
+  .project-card {
+    margin: 1px;
   }
+}
