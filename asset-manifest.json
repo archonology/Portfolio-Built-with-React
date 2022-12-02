@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio-Built-with-React/static/css/main.27a58406.css",
+    "main.css": "/Portfolio-Built-with-React/static/css/main.fab7680b.css",
     "main.js": "/Portfolio-Built-with-React/static/js/main.ed7a3bf8.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
@@ -12,12 +12,12 @@
     "static/media/pwa-text-editor.jpg": "/Portfolio-Built-with-React/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
     "static/media/reedMeher-resume.pdf": "/Portfolio-Built-with-React/static/media/reedMeher-resume.1308d05600b4c307f700.pdf",
     "index.html": "/Portfolio-Built-with-React/index.html",
-    "main.27a58406.css.map": "/Portfolio-Built-with-React/static/css/main.27a58406.css.map",
+    "main.fab7680b.css.map": "/Portfolio-Built-with-React/static/css/main.fab7680b.css.map",
     "main.ed7a3bf8.js.map": "/Portfolio-Built-with-React/static/js/main.ed7a3bf8.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27a58406.css",
+    "static/css/main.fab7680b.css",
     "static/js/main.ed7a3bf8.js"
   ]
 }
