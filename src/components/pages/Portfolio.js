@@ -37,7 +37,7 @@ const projects = [
   {
     _id: 5,
     customClass: 'card-img-top flip5',
-    title: 'PWA Text Editor',
+    title: 'Weather Dashboard',
     description: 'A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
     repoUrl: 'https://github.com/archonology/Weather-Dashboard',
     deployedUrl: 'https://archonology.github.io/Weather-Dashboard/'
