@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../materials/rm-resume.pdf';
+import resume from '../materials/reedMeher-resume.pdf';
 
 export default function Resume() {
   return (
@@ -40,7 +40,7 @@ export default function Resume() {
             <h4>Education:</h4>
 
             <p>  <strong> Boot Camp Certificate:</strong> University of Minnesota, Minneapolis, MN </p>
-            <p>  A 24-week intensive program focused on gaining technical programming skills in Excel, VBA, Python, R, JavaScript, SQL Databases, Tableau, Big Data, and Machine Learning. GPA: 4.0
+            <p> A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS (MERN and RESTFul practices). GPA: 4.0
             </p>
 
             <p>  <strong> Bachelor’s Degree:</strong> University of Minnesota, Morris, MN </p>
