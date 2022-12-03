@@ -2,6 +2,7 @@ import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
 
+
 function Contact() {
   // Create state variables for the fields in the form
   // also setting their initial values to an empty string
@@ -9,6 +10,24 @@ function Contact() {
   const [name, setName] = useState('');
   const [message, setMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
+
+  const form = useRef();
+
+// const sendEmail = (e) => {
+//   e.preventDefault();
+
+//   emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
+//     .then((result) => {
+//       alert(`
+//       Thanks for your message, ${name}! 
+//       I'll be in touch soon. 🌿
+//       - Reed Meher
+//       `);
+//       console.log(result.text);
+//     }, (error) => {
+//       console.log(error.text);
+//     });
+//   };
 
   const handleInputChange = (e) => {
     // Getting the value and name of the input which triggered the change
@@ -47,25 +66,15 @@ function Contact() {
     setName('');
     setMessage('');
     setEmail('');
-  };
-
-  const form = useRef();
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
     emailjs.sendForm('service_8vauvgr', 'template_favgkfg', form.current, '5oouP9wFVBIv7Jaue')
-      .then((result) => {
-        alert(`
-        Thanks for your message, ${name}! 
-        I'll be in touch soon. 🌿
-        - Reed Meher
-        `);
-        console.log(result.text);
-      }, (error) => {
-        console.log(error.text);
-      });
+
+      alert(`
+      Thanks for your message, ${name}! 
+      I'll be in touch soon. 🌿
+      - Reed Meher
+      `);
   };
+
 
   return (
 
@@ -121,13 +130,13 @@ function Contact() {
             />
             <br>
             </br>
-            <button type="button" className='link contact-btn' onClick={handleFormSubmit && sendEmail}>Submit</button>
+            <button type="button" className='link contact-btn' onClick={ handleFormSubmit }>Submit</button>
           </form>
         </div>
       </div>
     </div>
   );
+ };
 
-}
 
 export default Contact;
