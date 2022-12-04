@@ -8,7 +8,7 @@ const projects = [
     title: 'Home Party',
     description: 'A full-stack website built collaboratively. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it.',
     repoUrl: 'https://github.com/archonology/Home-Party',
-    deployedUrl: 'https://pacific-lake-30103.herokuapp.com'
+    deployedUrl: 'https://home-party-app.herokuapp.com'
   },
   {
     _id: 2,
