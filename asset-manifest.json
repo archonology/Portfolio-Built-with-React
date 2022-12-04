@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio-Built-with-React/static/css/main.fab7680b.css",
-    "main.js": "/Portfolio-Built-with-React/static/js/main.a3ffe48d.js",
+    "main.js": "/Portfolio-Built-with-React/static/js/main.27f7c525.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
     "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
     "static/media/home-party-page.jpg": "/Portfolio-Built-with-React/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
@@ -13,11 +13,11 @@
     "static/media/reedMeher-resume.pdf": "/Portfolio-Built-with-React/static/media/reedMeher-resume.1308d05600b4c307f700.pdf",
     "index.html": "/Portfolio-Built-with-React/index.html",
     "main.fab7680b.css.map": "/Portfolio-Built-with-React/static/css/main.fab7680b.css.map",
-    "main.a3ffe48d.js.map": "/Portfolio-Built-with-React/static/js/main.a3ffe48d.js.map",
+    "main.27f7c525.js.map": "/Portfolio-Built-with-React/static/js/main.27f7c525.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fab7680b.css",
-    "static/js/main.a3ffe48d.js"
+    "static/js/main.27f7c525.js"
   ]
 }
