@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Portfolio-Built-with-React/static/css/main.fab7680b.css",
-    "main.js": "/Portfolio-Built-with-React/static/js/main.27f7c525.js",
-    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js",
-    "static/media/PortraitGif.gif": "/Portfolio-Built-with-React/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
-    "static/media/home-party-page.jpg": "/Portfolio-Built-with-React/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
-    "static/media/scheduler.jpg": "/Portfolio-Built-with-React/static/media/scheduler.1f9416c95bc000c30204.jpg",
-    "static/media/weather-dashboard.jpg": "/Portfolio-Built-with-React/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
-    "static/media/a-night-in-page.jpg": "/Portfolio-Built-with-React/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
-    "static/media/wandering-comma.jpg": "/Portfolio-Built-with-React/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
-    "static/media/pwa-text-editor.jpg": "/Portfolio-Built-with-React/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
-    "static/media/reedMeher-resume.pdf": "/Portfolio-Built-with-React/static/media/reedMeher-resume.1308d05600b4c307f700.pdf",
-    "index.html": "/Portfolio-Built-with-React/index.html",
-    "main.fab7680b.css.map": "/Portfolio-Built-with-React/static/css/main.fab7680b.css.map",
-    "main.27f7c525.js.map": "/Portfolio-Built-with-React/static/js/main.27f7c525.js.map",
-    "787.1ed0c42c.chunk.js.map": "/Portfolio-Built-with-React/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/static/css/main.e1c98dc8.css",
+    "main.js": "/static/js/main.671dff77.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/PortraitGif.gif": "/static/media/PortraitGif.142538bec5e43cce6b1c.gif",
+    "static/media/home-party-page.jpg": "/static/media/home-party-page.0b3fbd3c7cf6e5b692c5.jpg",
+    "static/media/scheduler.jpg": "/static/media/scheduler.1f9416c95bc000c30204.jpg",
+    "static/media/weather-dashboard.jpg": "/static/media/weather-dashboard.60ce3d625d4f6fb62dd6.jpg",
+    "static/media/a-night-in-page.jpg": "/static/media/a-night-in-page.a077afed328e2ae96e36.jpg",
+    "static/media/wandering-comma.jpg": "/static/media/wandering-comma.928ef04ff0ef7acd9d48.jpg",
+    "static/media/pwa-text-editor.jpg": "/static/media/pwa-text-editor.e28e733eeed15bc10704.jpg",
+    "static/media/reedMeher-resume.pdf": "/static/media/reedMeher-resume.1308d05600b4c307f700.pdf",
+    "index.html": "/index.html",
+    "main.e1c98dc8.css.map": "/static/css/main.e1c98dc8.css.map",
+    "main.671dff77.js.map": "/static/js/main.671dff77.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fab7680b.css",
-    "static/js/main.27f7c525.js"
+    "static/css/main.e1c98dc8.css",
+    "static/js/main.671dff77.js"
   ]
 }
