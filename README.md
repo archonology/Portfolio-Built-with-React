@@ -1,7 +1,7 @@
 # Portfolio Site
 
 ## Links
-View the deployed site: https://archonology.github.io/Portfolio-Built-with-React/
+View the deployed site: https://meherdevs.com/
 
 ## Screenshot
 ![screenshot](./src/components/images/portfolio%20view.png)    
