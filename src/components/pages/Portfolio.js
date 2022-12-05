@@ -6,7 +6,7 @@ const projects = [
     _id: 1,
     customClass: 'card-img-top flip',
     title: 'Home Party',
-    description: 'A full stack website built collaboratively with RESTful practices, managed by Reed. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it. Utilizes MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.',
+    description: 'A full stack website built collaboratively with RESTful practices, managed by me. Home Party is a place to invite your family and friends for tracking real estate. Utilizes MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.',
     repoUrl: 'https://github.com/archonology/Home-Party',
     deployedUrl: 'https://home-party-app.herokuapp.com'
   },

@@ -1,7 +1,7 @@
 # Portfolio Site
 
 ## Links
-View the deployed site: https://meherdevs.com/
+View the deployed site: https://www.meherdevs.com/
 
 ## Screenshot
 ![screenshot](./src/components/images/portfolio%20view.png)    
