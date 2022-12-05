@@ -6,7 +6,7 @@ const projects = [
     _id: 1,
     customClass: 'card-img-top flip',
     title: 'Home Party',
-    description: 'A full-stack website built collaboratively. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it.',
+    description: 'A full stack website built collaboratively with RESTful practices, managed by Reed. Home Party is a place to invite your family and friends for tracking your favorite homes and all the things you would like to have in it. Utilizes MySQL, Sequelize, Node, Javascript, Bootstrap, Nodemailer, custom CSS, and HTML.',
     repoUrl: 'https://github.com/archonology/Home-Party',
     deployedUrl: 'https://home-party-app.herokuapp.com'
   },
@@ -14,7 +14,7 @@ const projects = [
     _id: 2,
     customClass: 'card-img-top flip2',
     title: 'The Wandering Comma',
-    description: 'This application allows for users to sign up, login in, and create and edit posts and comments.',
+    description: 'A full stack tech blog created with RESTful practices. Utilizes MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.',
     repoUrl: 'https://github.com/archonology/The-Wandering-Comma-Tech-Blog',
     deployedUrl: 'https://the-wandering-comma.herokuapp.com'
   },
@@ -22,7 +22,7 @@ const projects = [
     _id: 3,
     customClass: 'card-img-top flip3',
     title: 'A Night In',
-    description: 'Utilizes public APIs to solve the problem of planning a night home of dining, drinking, and watching a show. This app will help a user find culinary and media inspiration through randomized searches to find ideas.',
+    description: 'A frontend app built collaboratively on Github. Utilizes public APIs to solve the problem of planning a night home of dining, drinking, and watching a show. This app will help a user find culinary and media inspiration through randomized searches to find ideas. Javascript, Tailwind, JQUERY, custom CSS, HTML, localStorage, and public fetch APIs.',
     repoUrl: 'https://github.com/archonology/A-Night-In',
     deployedUrl: 'https://archonology.github.io/A-Night-In/'
   },
@@ -30,7 +30,7 @@ const projects = [
     _id: 4,
     customClass: 'card-img-top flip4',
     title: 'PWA Text Editor',
-    description: 'Full stack PWA text editor that creates an easy place to keep coding notes or practice functions. Uses Webpack, Workbox, Express, and Idb.',
+    description: 'A full stack PWA text editor that affords an easy place to keep coding notes or practice functions. You can save it to your local device (via Chrome) Uses Webpack, Workbox, Express, Idb, and more.',
     repoUrl: 'https://github.com/archonology/PWA-Text-Editor',
     deployedUrl: 'https://simple-pwa-text-editor-84.herokuapp.com'
   },
@@ -38,7 +38,7 @@ const projects = [
     _id: 5,
     customClass: 'card-img-top flip5',
     title: 'Weather Dashboard',
-    description: 'A weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
+    description: 'A frontend weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
     repoUrl: 'https://github.com/archonology/Weather-Dashboard',
     deployedUrl: 'https://archonology.github.io/Weather-Dashboard/'
   },
@@ -46,7 +46,7 @@ const projects = [
     _id: 6,
     customClass: 'card-img-top flip6',
     title: 'Simple Scheduler',
-    description: 'Using Javascript and CSS to create a simple work day scheduling application.',
+    description: 'Using Javascript and CSS to create a simple, frontend, work day scheduling application.',
     repoUrl: 'https://github.com/archonology/Work-Day-Scheduler',
     deployedUrl: 'https://archonology.github.io/Work-Day-Scheduler/'
   }
