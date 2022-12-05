@@ -32,7 +32,7 @@ const projects = [
     title: 'PWA Text Editor',
     description: 'Full stack PWA text editor that creates an easy place to keep coding notes or practice functions. Uses Webpack, Workbox, Express, and Idb.',
     repoUrl: 'https://github.com/archonology/PWA-Text-Editor',
-    deployedUrl: 'https://stormy-brook-86933.herokuapp.com/'
+    deployedUrl: 'https://simple-pwa-text-editor-84.herokuapp.com'
   },
   {
     _id: 5,
