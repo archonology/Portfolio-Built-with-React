@@ -16,7 +16,7 @@ const projects = [
     title: 'The Wandering Comma',
     description: 'This application allows for users to sign up, login in, and create and edit posts and comments.',
     repoUrl: 'https://github.com/archonology/The-Wandering-Comma-Tech-Blog',
-    deployedUrl: 'https://morning-caverns-74911.herokuapp.com/'
+    deployedUrl: 'https://the-wandering-comma.herokuapp.com'
   },
   {
     _id: 3,
