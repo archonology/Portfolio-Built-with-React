@@ -91,7 +91,7 @@ function Contact() {
         <h2 className="page-title">Contact</h2>
         <hr></hr>
         <div className='col col-md-6'>
-          <p className='m'>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any quesitons.</p>
+          <p className='m'>Have a web application you would like built? Interested in collaborating on a project?  Reach out! I would love to hear from you and answer any questions.</p>
 
           {errorMessage && (
             <div>
