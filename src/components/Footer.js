@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <p>MeherDevs 2022</p><a href='https://www.linkedin.com/in/reed-meher' target='_blank' rel='noreferrer'>
-                <img
+                <img 
                     className='linkedin'
                     src='https://indyme.com/wp-content/uploads/2017/07/LinkedIn-Icon.png'
                     alt='linkedIn Icon'

@@ -122,7 +122,7 @@ img {
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  background-image: url(./components/images/weather-dashboard.jpg);
+  background-image: url(./components/images/prima-materia-pic.png);
   background-size: cover;
 }
 
@@ -133,7 +133,7 @@ img {
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  background-image: url(./components/images/scheduler.jpg);
+  background-image: url(./components/images/booksearch-pic.png);
   background-size: cover;
 }
 
@@ -144,6 +144,7 @@ img {
   border: none;
   padding: 2em;
   box-shadow: 5px 1px 17px rgb(223, 216, 216);
+  transition: 1s;
 }
 
 .video-card {
@@ -245,6 +246,7 @@ footer {
 
 .linkedin {
   width: 40px;
+  padding: none;
   height: auto;
   border-radius: none;
   border: white solid 1px;
@@ -274,7 +276,7 @@ img:hover {
 }
 
 .portrait:hover {
-  box-shadow: 5px 1px 17px rgb(223, 216, 216);
+  box-shadow: 0px 1px 17px 2px rgb(92, 87, 87);
 }
 
 .link:hover {

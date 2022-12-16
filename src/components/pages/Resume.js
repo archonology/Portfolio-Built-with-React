@@ -40,7 +40,7 @@ export default function Resume() {
             <h4>Education:</h4>
 
             <p>  <strong> Boot Camp Certificate:</strong> University of Minnesota, Minneapolis, MN </p>
-            <p> A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS (MERN and RESTFul practices). GPA: 4.0
+            <p> A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, NoSQL, Node.js, MySQL, MongoDB, Express, Handelbars.js, and ReactJS (MERN and RESTFul practices).
             </p>
 
             <p>  <strong> BFA:</strong> University of Minnesota, Morris, MN </p>

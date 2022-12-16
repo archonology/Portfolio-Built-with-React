@@ -3,6 +3,14 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
+    _id: 5,
+    customClass: 'card-img-top flip5',
+    title: 'Prima-Materia',
+    description: 'A full stack, collaboratively built app that allows users to create an account, manage a wishlist, build decks, and complete refined searches. Prima-Materia was created with React and utilizes GraphQL API practices.',
+    repoUrl: 'https://github.com/archonology/Prima-Materia',
+    deployedUrl: 'https://prima-materia-84.herokuapp.com/'
+  },
+  {
     _id: 1,
     customClass: 'card-img-top flip',
     title: 'Home Party',
@@ -17,6 +25,14 @@ const projects = [
     description: 'A full stack tech blog created with RESTful practices. Utilizes MySQL, Sequelize, Express, Node, Javascript, Bootstrap, custom CSS, and HTML.',
     repoUrl: 'https://github.com/archonology/The-Wandering-Comma-Tech-Blog',
     deployedUrl: 'https://the-wandering-comma.herokuapp.com'
+  },
+  {
+    _id: 6,
+    customClass: 'card-img-top flip6',
+    title: 'Book Search',
+    description: 'A study in refactoring RESTful API to GraphQL API practices, this book search tool tackles the need for using MERN in search fetch APIs. Other tech used: Apollo Server, Bootstrap, React-dom, React-router-dom, jwt-decode, and Apollo/client.',
+    repoUrl: 'https://github.com/archonology/Book-Search-with-MERN',
+    deployedUrl: ' https://book-search-84.herokuapp.com'
   },
   {
     _id: 3,
@@ -34,22 +50,7 @@ const projects = [
     repoUrl: 'https://github.com/archonology/PWA-Text-Editor',
     deployedUrl: 'https://simple-pwa-text-editor-84.herokuapp.com'
   },
-  {
-    _id: 5,
-    customClass: 'card-img-top flip5',
-    title: 'Weather Dashboard',
-    description: 'A frontend weather tracking website that uses fetch API and localStorage. Needed a site where weather searches were saved so that the user could easily check weather updates while they are traveling.',
-    repoUrl: 'https://github.com/archonology/Weather-Dashboard',
-    deployedUrl: 'https://archonology.github.io/Weather-Dashboard/'
-  },
-  {
-    _id: 6,
-    customClass: 'card-img-top flip6',
-    title: 'Simple Scheduler',
-    description: 'Using Javascript and CSS to create a simple, frontend, work day scheduling application.',
-    repoUrl: 'https://github.com/archonology/Work-Day-Scheduler',
-    deployedUrl: 'https://archonology.github.io/Work-Day-Scheduler/'
-  }
+
 ];
 
 export default function Portfolio(props) {
@@ -59,7 +60,7 @@ export default function Portfolio(props) {
       <h2>Portfolio</h2>
       <hr></hr>
       <p>
-        Below you can check out some of my favorite, recent projects.  The first 6 are full-stack or front-end; below that, you'll find demos to my favorite back-end applications.
+        Below you can check out some of my favorite, recent projects.  The first 6 are full stack or frontend; below that, you'll find demos to my favorite backend applications.
       </p>
 
 
@@ -78,9 +79,9 @@ export default function Portfolio(props) {
       </section>
 
       <hr></hr>
-      <h2 className='mt-5'>Back-End Demos</h2>
+      <h2 className='mt-5'>Backend Demos</h2>
       <p>
-        These applications are purely back-end, so they are without front-end facing views. The demonstrations below show the functionality of the routes and back-end user interface.
+        These applications are purely backend, so they are without frontend facing views. The demonstrations below show the functionality of the routes and backend user interface.
       </p>
       <hr></hr>
       <section className='container d-flex flex-wrap'>
