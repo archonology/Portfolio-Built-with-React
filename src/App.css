@@ -122,7 +122,7 @@ img {
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  background-image: url(./components/images/prima-materia-pic.png);
+  background-image: url(./components/images/prima-materia-main.jpg);
   background-size: cover;
 }
 
@@ -133,7 +133,7 @@ img {
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
-  background-image: url(./components/images/booksearch-pic.png);
+  background-image: url(./components/images/booksearch-pic.jpg);
   background-size: cover;
 }
 
