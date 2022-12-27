@@ -19,7 +19,7 @@ export default function Resume() {
           <div className='resume col m-3 mb-1 p-4'>
 
             <h4>Other Skills:</h4>
-            <p> Working and Coding on teams remotely(+2 years), Microsoft Office Suites & Teams, MacOS iWork, Github, Adobe Creative Suites, Slack, Wordpress, and Zoom.
+            <p> Working and coding on teams remotely(+2 years), Microsoft Office Suites & Teams, MacOS iWork, Github, Adobe Creative Suites, Slack, Wordpress, and Zoom.
             </p>
 
           </div>
