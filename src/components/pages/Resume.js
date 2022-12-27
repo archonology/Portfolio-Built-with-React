@@ -11,15 +11,15 @@ export default function Resume() {
 
           <div className='resume2 col m-3 mb-1 p-4'>
             <h4>Languages & Specialties:</h4>
-            <p>Javascript, CSS3, HTML5, React, Node, GraphQL, Apollo Server, SQL databases, MERN stack, and RESTful practices
+            <p>Javascript, CSS3, HTML5, ReactJS, Express, Mongoose, MongoDB, Node, GraphQL, Apollo, Material UI, Bootstrap, NoSQL, MySQL, Heroku, and RESTful practices.
             </p>
 
           </div>
 
           <div className='resume col m-3 mb-1 p-4'>
 
-            <h4>Involvement & Interests:</h4>
-            <p>   javascript30.com, Front End Happy Hour(podcast), new tech, cooking, hiking, art, gaming, music, my  partner, our three daughters, and our fur children, Alma & Reiko.
+            <h4>Other Skills:</h4>
+            <p> Working and Coding on teams remotely(+2 years), Microsoft Office Suites & Teams, MacOS iWork, Github, Adobe Creative Suites, Slack, Wordpress, and Zoom.
             </p>
 
           </div>
