@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../materials/MeherDevs_2023_Resume.pdf';
+import resume from '../materials/Reed Meher_Resume_2023.pdf';
 
 export default function Resume() {
   return (
@@ -11,7 +11,7 @@ export default function Resume() {
 
           <div className='resume2 col m-3 mb-1 p-4'>
             <h4>Languages & Specialties:</h4>
-            <p>Javascript, CSS3, HTML5, ReactJS, Express, Mongoose, MongoDB, Node, GraphQL, Apollo, Material UI, Bootstrap, NoSQL, MySQL, Heroku, and RESTful practices.
+            <p>Javascript, CSS3, HTML5, ReactJS, Express, Mongoose, MongoDB, Node, GraphQL, Apollo, Material UI, Bootstrap, Git, Webpack, Jest, NoSQL, MySQL, WebAPIs, DevTools, Heroku, and RESTful practices.
             </p>
 
           </div>
@@ -19,7 +19,8 @@ export default function Resume() {
           <div className='resume col m-3 mb-1 p-4'>
 
             <h4>Other Skills:</h4>
-            <p> Working and coding on teams remotely(+2 years), Microsoft Office Suites & Teams, MacOS iWork, Github, Adobe Creative Suites, Slack, Wordpress, and Zoom.
+            <p> Adobe Creative Suites, working and coding on teams remotely(+2 years), Microsoft Office Suites & Teams, MacOS iWork, Github , Slack, Wordpress, and Zoom.
+
             </p>
 
           </div>
