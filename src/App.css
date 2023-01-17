@@ -8,6 +8,7 @@
   --studio: rgb(254, 254, 253);
 }
 
+
 body {
   padding: 2em;
 }
@@ -60,7 +61,6 @@ p {
 }
 
 img {
-  border-radius: 7px;
   border: black solid 1px;
   box-shadow: 7px 7px 10px rgba(14, 14, 14, 0.609);
   margin-bottom: 1em;
@@ -142,6 +142,7 @@ img {
   max-width: 375px;
   margin: 1em;
   border: none;
+  border-radius: 3%;
   padding: 2em;
   box-shadow: 5px 1px 17px rgb(223, 216, 216);
   transition: 1s;
@@ -271,12 +272,17 @@ a:hover {
   border: none;
 }
 
-img:hover {
-  box-shadow: 8px 8px 18px rgba(14, 14, 14, 0.609);
+.linkedin:hover, .github:hover {
+  transform: scale(115%);
 }
 
+/* img:hover {
+  box-shadow: 8px 8px 18px rgba(14, 14, 14, 0.609);
+} */
+
+
 .portrait:hover {
-  box-shadow: 0px 1px 17px 2px rgb(92, 87, 87);
+  box-shadow: 5px 1px 17px rgb(223, 216, 216);
 }
 
 .link:hover {

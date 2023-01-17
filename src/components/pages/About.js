@@ -15,19 +15,14 @@ export default function About() {
         <p>
           Reed lives in Grand Marais, MN, along the edge of the Gitchigumi with his three daughters, his partner, grandparents, and their fur-children, Alma and Reiko. They love to make art, go exploring, cook food together, play games, and have dance parties.
         </p>
-        <p>
-          When Reed and his partner get the chance(rare!), they love to travel, visit breweries, hike with Alma, square off in epic MtG duels, and craft virtual goods.
-        </p>
       </div>
-
-      <div className='col col-md-6 col-lg-6 order-2 '>
+      <div className='col col-md-6 col-lg-6 order-2'>
         <img
           alt={portrait}
           className="portrait"
           src={portrait}
         />
       </div>
-
     </div>
     
   );
